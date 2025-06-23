@@ -1,0 +1,35 @@
+[I 2025-06-21 06:14:42.016 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-06-21 06:14:42.020 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-06-21 06:14:43.281 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-06-21 06:14:43.346 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-06-21 06:14:43.350 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-06-21 06:14:43.350 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-06-21 06:14:43.355 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-06-21 06:14:43.375 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-06-21 06:14:43.376 ServerApp] The port 2020 is already in use, trying another port.
+[I 2025-06-21 06:14:43.376 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-06-21 06:14:43.377 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-06-21 06:14:43.377 ServerApp] http://instance-20250618-195632:2021/lab
+[I 2025-06-21 06:14:43.377 ServerApp]  or http://127.0.0.1:2021/lab
+[I 2025-06-21 06:14:43.377 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-06-21 13:05:44.896 ServerApp] 302 GET / (167.94.138.186) 9.17ms
+[I 2025-06-21 13:06:00.976 ServerApp] 302 GET / (167.94.138.186) 0.82ms
+[I 2025-06-21 13:06:03.542 ServerApp] Malformed HTTP message from 167.94.138.186: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-21 13:06:18.976 LabApp] 302 GET /lab (167.94.138.186) 5.55ms
+[I 2025-06-21 13:06:22.362 ServerApp] Malformed HTTP message from 167.94.138.186: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-21 13:07:02.845 ServerApp] Malformed HTTP message from 167.94.138.186: Unexpected HTTP version 'HTTP/2.0'
+[W 2025-06-21 13:07:45.105 ServerApp] 404 GET /.well-known/security.txt (167.94.138.186) 13.71ms referer=None
+[I 2025-06-21 23:48:05.684 ServerApp] 302 GET / (162.142.125.121) 10.26ms
+[I 2025-06-21 23:48:21.583 ServerApp] 302 GET / (162.142.125.121) 1.11ms
+[I 2025-06-21 23:48:23.510 ServerApp] Malformed HTTP message from 162.142.125.121: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-21 23:48:31.145 LabApp] 302 GET /lab (162.142.125.121) 6.32ms
+[I 2025-06-21 23:48:35.898 ServerApp] Malformed HTTP message from 162.142.125.121: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-21 23:48:55.422 ServerApp] Malformed HTTP message from 162.142.125.121: Unexpected HTTP version 'HTTP/2.0'
+[W 2025-06-21 23:49:28.420 ServerApp] 404 GET /.well-known/security.txt (162.142.125.121) 2.60ms referer=None
+[I 2025-06-22 14:29:36.905 ServerApp] 302 GET / (66.228.53.174) 10.01ms
+[I 2025-06-22 16:15:14.864 ServerApp] 302 GET / (199.45.155.97) 9.39ms
+[I 2025-06-22 16:15:24.606 ServerApp] 302 GET / (199.45.155.97) 0.62ms
+[I 2025-06-22 16:15:25.074 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-22 16:15:30.998 LabApp] 302 GET /lab (199.45.155.97) 5.14ms
+[I 2025-06-22 16:15:31.765 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-22 16:15:37.205 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
