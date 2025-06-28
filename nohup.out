@@ -33,3 +33,100 @@
 [I 2025-06-22 16:15:30.998 LabApp] 302 GET /lab (199.45.155.97) 5.14ms
 [I 2025-06-22 16:15:31.765 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
 [I 2025-06-22 16:15:37.205 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-28 04:41:22.193 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-06-28 04:41:22.199 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-06-28 04:41:23.371 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-06-28 04:41:23.454 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-06-28 04:41:23.476 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-06-28 04:41:23.476 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-06-28 04:41:23.481 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-06-28 04:41:23.511 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-06-28 04:41:23.512 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-06-28 04:41:23.512 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-06-28 04:41:23.512 ServerApp] http://instance-20250618-195632:2012/lab
+[I 2025-06-28 04:41:23.512 ServerApp]  or http://127.0.0.1:2012/lab
+[I 2025-06-28 04:41:23.512 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2025-06-28 04:41:23.523 ServerApp] No web browser found: could not locate runnable browser.
+[I 2025-06-28 04:41:47.284 ServerApp] 302 GET / (49.36.218.78) 0.75ms
+[I 2025-06-28 04:41:47.567 LabApp] 302 GET /lab? (49.36.218.78) 0.91ms
+[I 2025-06-28 04:41:53.699 ServerApp] 302 POST /login?next=%2Flab%3F (49.36.218.78) 155.87ms
+[W 2025-06-28 04:42:08.061 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-06-28 04:42:09.933 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/05-OOP_1/05-oop_001.ipynb?content=0&1751085729996 (49.36.218.78): file or directory does not exist: 'cs-320-su-25/lecture-material/05-OOP_1/05-oop_001.ipynb'
+[W 2025-06-28 04:42:09.933 ServerApp] wrote error: "file or directory does not exist: 'cs-320-su-25/lecture-material/05-OOP_1/05-oop_001.ipynb'"
+[W 2025-06-28 04:42:09.935 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/05-OOP_1/05-oop_001.ipynb?content=0&1751085729996 (49.36.218.78) 3.51ms referer=http://34.58.90.64:2012/lab?
+[W 2025-06-28 04:42:10.184 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/05-OOP_1/05-oop.ipynb?content=0&1751085729996 (49.36.218.78): file or directory does not exist: 'cs-320-su-25/lecture-material/05-OOP_1/05-oop.ipynb'
+[W 2025-06-28 04:42:10.185 ServerApp] wrote error: "file or directory does not exist: 'cs-320-su-25/lecture-material/05-OOP_1/05-oop.ipynb'"
+[W 2025-06-28 04:42:10.185 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/05-OOP_1/05-oop.ipynb?content=0&1751085729996 (49.36.218.78) 2.01ms referer=http://34.58.90.64:2012/lab?
+[W 2025-06-28 04:42:10.189 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2/06-oop_002.ipynb?content=0&1751085729997 (49.36.218.78): file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2/06-oop_002.ipynb'
+[W 2025-06-28 04:42:10.190 ServerApp] wrote error: "file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2/06-oop_002.ipynb'"
+[W 2025-06-28 04:42:10.191 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2/06-oop_002.ipynb?content=0&1751085729997 (49.36.218.78) 2.53ms referer=http://34.58.90.64:2012/lab?
+[W 2025-06-28 04:42:10.199 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2/06-oop_001.ipynb?content=0&1751085729997 (49.36.218.78): file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2/06-oop_001.ipynb'
+[W 2025-06-28 04:42:10.200 ServerApp] wrote error: "file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2/06-oop_001.ipynb'"
+[W 2025-06-28 04:42:10.201 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2/06-oop_001.ipynb?content=0&1751085729997 (49.36.218.78) 3.22ms referer=http://34.58.90.64:2012/lab?
+[W 2025-06-28 04:42:11.741 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2?1751085731827 (49.36.218.78): file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2'
+[W 2025-06-28 04:42:11.741 ServerApp] wrote error: "file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2'"
+[W 2025-06-28 04:42:11.742 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2?1751085731827 (49.36.218.78) 1.69ms referer=http://34.58.90.64:2012/lab?
+[C 2025-06-28 04:44:03.600 ServerApp] received signal 15, stopping
+[I 2025-06-28 04:44:03.601 ServerApp] Shutting down 3 extensions
+[I 2025-06-28 04:44:03.602 ServerApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2025-06-28 15:43:20.435 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-06-28 15:43:20.443 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-06-28 15:43:21.720 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-06-28 15:43:21.792 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-06-28 15:43:21.794 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-06-28 15:43:21.794 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-06-28 15:43:21.799 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-06-28 15:43:21.821 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-06-28 15:43:21.821 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-06-28 15:43:21.822 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-06-28 15:43:21.822 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-06-28 15:43:21.822 ServerApp] http://instance-20250618-195632:2912/lab
+[I 2025-06-28 15:43:21.822 ServerApp]  or http://127.0.0.1:2912/lab
+[I 2025-06-28 15:43:21.822 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-06-28 15:44:06.152 ServerApp] received signal 15, stopping
+[I 2025-06-28 15:44:06.153 ServerApp] Shutting down 3 extensions
+[I 2025-06-28 15:44:06.154 ServerApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2025-06-28 15:44:16.978 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-06-28 15:44:16.983 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-06-28 15:44:17.229 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-06-28 15:44:17.249 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-06-28 15:44:17.251 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-06-28 15:44:17.251 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-06-28 15:44:17.255 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-06-28 15:44:17.259 ServerApp] nbclassic | extension was successfully loaded.
+[W 2025-06-28 15:44:17.259 ServerApp] Permission to listen on port 1011 denied.
+[W 2025-06-28 15:44:17.260 ServerApp] Permission to listen on port 1012 denied.
+[W 2025-06-28 15:44:17.260 ServerApp] Permission to listen on port 1013 denied.
+[W 2025-06-28 15:44:17.260 ServerApp] Permission to listen on port 1014 denied.
+[W 2025-06-28 15:44:17.260 ServerApp] Permission to listen on port 1015 denied.
+[I 2025-06-28 15:44:17.261 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-06-28 15:44:17.261 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-06-28 15:44:17.261 ServerApp] http://instance-20250618-195632:1099/lab
+[I 2025-06-28 15:44:17.261 ServerApp]  or http://127.0.0.1:1099/lab
+[I 2025-06-28 15:44:17.261 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
