@@ -462,5 +462,4 @@ Turn off this advice by setting config variable advice.detachedHead to false
 HEAD is now at f8789197 With -> with in headline
 Previous HEAD position was f8789197 With -> with in headline
 Switched to branch 'main'
-[I 2025-07-01 13:58:55.575 ServerApp] Saving file at /projects/mp2/mp2.ipynb
-[I 2025-07-01 14:00:25.393 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:d0d7ee91-b4b6-48b9-ab48-a7049c34220b
+
