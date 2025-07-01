@@ -1,0 +1,466 @@
+[C 2025-06-28 15:50:11.101 ServerApp] Bad config encountered during initialization: Error loading argument ServerApp.ip=['0.0.0.0', '2012'], ip only accepts one value, got 2: ['0.0.0.0', '2012']
+[I 2025-06-28 15:51:42.201 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-06-28 15:51:42.206 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-06-28 15:51:42.457 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-06-28 15:51:42.477 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-06-28 15:51:42.498 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-06-28 15:51:42.498 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-06-28 15:51:42.503 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-06-28 15:51:42.507 ServerApp] nbclassic | extension was successfully loaded.
+[W 2025-06-28 15:51:42.507 ServerApp] Permission to listen on port 1011 denied.
+[W 2025-06-28 15:51:42.508 ServerApp] Permission to listen on port 1012 denied.
+[W 2025-06-28 15:51:42.508 ServerApp] Permission to listen on port 1013 denied.
+[W 2025-06-28 15:51:42.508 ServerApp] Permission to listen on port 1014 denied.
+[W 2025-06-28 15:51:42.508 ServerApp] Permission to listen on port 1015 denied.
+[W 2025-06-28 15:51:42.508 ServerApp] Permission to listen on port 1004 denied.
+[I 2025-06-28 15:51:42.508 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-06-28 15:51:42.508 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-06-28 15:51:42.508 ServerApp] http://instance-20250618-195632:1054/lab
+[I 2025-06-28 15:51:42.509 ServerApp]  or http://127.0.0.1:1054/lab
+[I 2025-06-28 15:51:42.509 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-06-28 15:52:18.380 ServerApp] received signal 15, stopping
+[I 2025-06-28 15:52:18.383 ServerApp] Shutting down 3 extensions
+[I 2025-06-28 15:52:18.384 ServerApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2025-06-28 15:55:48.041 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-06-28 15:55:48.046 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-06-28 15:55:48.301 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-06-28 15:55:48.323 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-06-28 15:55:48.324 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-06-28 15:55:48.325 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-06-28 15:55:48.329 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-06-28 15:55:48.333 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-06-28 15:55:48.334 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-06-28 15:55:48.334 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-06-28 15:55:48.334 ServerApp] http://instance-20250618-195632:2020/lab
+[I 2025-06-28 15:55:48.334 ServerApp]  or http://127.0.0.1:2020/lab
+[I 2025-06-28 15:55:48.334 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-06-28 15:55:56.567 ServerApp] 302 GET / (49.42.33.36) 0.66ms
+[W 2025-06-28 15:55:56.906 ServerApp] Clearing invalid/expired login cookie username-34-58-90-64-2020
+[W 2025-06-28 15:55:56.907 LabApp] Clearing invalid/expired login cookie username-34-58-90-64-2020
+[I 2025-06-28 15:55:56.908 LabApp] 302 GET /lab? (49.42.33.36) 1.96ms
+[I 2025-06-28 15:56:03.925 ServerApp] 302 POST /login?next=%2Flab%3F (49.42.33.36) 98.76ms
+[W 2025-06-28 15:56:09.959 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-06-28 15:56:23.417 ServerApp] 404 GET /api/contents/labs-and-projects?1751126183990 (49.42.33.36): file or directory does not exist: 'labs-and-projects'
+[W 2025-06-28 15:56:23.417 ServerApp] wrote error: "file or directory does not exist: 'labs-and-projects'"
+[W 2025-06-28 15:56:23.417 ServerApp] 404 GET /api/contents/labs-and-projects?1751126183990 (49.42.33.36) 1.77ms referer=http://34.58.90.64:2020/lab?
+[W 2025-06-28 15:56:32.415 ServerApp] Notebook projects/mp2/mp2.ipynb is not trusted
+[I 2025-06-28 15:56:34.310 ServerApp] Kernel started: 91058c7e-7e6d-41e5-b223-062a28f7e41f
+[W 2025-06-28 15:56:35.308 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-06-28 15:58:33.978 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-06-28 16:00:34.824 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-06-28 16:02:35.550 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-06-28 16:04:36.267 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-06-28 16:06:36.954 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-06-28 16:08:37.796 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[W 2025-06-28 16:09:10.408 ServerApp] 404 GET /static/lab/main.357caa106b0f0fb27cf2.js.map?v=357caa106b0f0fb27cf2 (49.42.33.36) 23.77ms referer=None
+[W 2025-06-28 16:09:10.418 ServerApp] 404 GET /static/lab/6700.984fbcea3a7479dfcac1.js.map?v=984fbcea3a7479dfcac1 (49.42.33.36) 8.55ms referer=None
+[W 2025-06-28 16:09:10.419 ServerApp] 404 GET /static/lab/4155.784ca1752696680bf373.js.map?v=784ca1752696680bf373 (49.42.33.36) 9.04ms referer=None
+[W 2025-06-28 16:09:10.457 ServerApp] 404 GET /static/lab/1036.b407e23ec5843f2b574d.js.map?v=b407e23ec5843f2b574d (49.42.33.36) 1.63ms referer=None
+[W 2025-06-28 16:09:10.660 ServerApp] 404 GET /static/lab/4570.53adcb6f69939da383ff.js.map?v=53adcb6f69939da383ff (49.42.33.36) 1.80ms referer=None
+[W 2025-06-28 16:09:10.669 ServerApp] 404 GET /static/lab/1033.890eeae47460e241b1e9.js.map?v=890eeae47460e241b1e9 (49.42.33.36) 1.69ms referer=None
+[W 2025-06-28 16:09:10.731 ServerApp] 404 GET /static/lab/2719.1001d896f21f09c3f99f.js.map?v=1001d896f21f09c3f99f (49.42.33.36) 1.64ms referer=None
+[W 2025-06-28 16:09:10.767 ServerApp] 404 GET /static/lab/7294.f71c2889fedcd71bd1ee.js.map?v=f71c2889fedcd71bd1ee (49.42.33.36) 1.59ms referer=None
+[W 2025-06-28 16:09:10.959 ServerApp] 404 GET /static/lab/9473.f2a6762d8d871d9e2267.js.map?v=f2a6762d8d871d9e2267 (49.42.33.36) 1.74ms referer=None
+[W 2025-06-28 16:09:10.979 ServerApp] 404 GET /static/lab/3935.4159b022aa6d82e44127.js.map?v=4159b022aa6d82e44127 (49.42.33.36) 1.76ms referer=None
+[W 2025-06-28 16:09:11.053 ServerApp] 404 GET /static/lab/5096.96faf5ddac346a9ad9c3.js.map?v=96faf5ddac346a9ad9c3 (49.42.33.36) 1.84ms referer=None
+[W 2025-06-28 16:09:11.055 ServerApp] 404 GET /static/lab/1142.074d125bb59f5a332666.js.map?v=074d125bb59f5a332666 (49.42.33.36) 1.42ms referer=None
+[W 2025-06-28 16:09:11.067 ServerApp] 404 GET /static/lab/7755.d506a1d9dadf30b1e490.js.map?v=d506a1d9dadf30b1e490 (49.42.33.36) 1.63ms referer=None
+[W 2025-06-28 16:09:11.259 ServerApp] 404 GET /static/lab/807.96166378e2efe232d81e.js.map?v=96166378e2efe232d81e (49.42.33.36) 1.80ms referer=None
+[W 2025-06-28 16:09:11.284 ServerApp] 404 GET /static/lab/1057.a0608544097dd22a589e.js.map?v=a0608544097dd22a589e (49.42.33.36) 1.76ms referer=None
+[W 2025-06-28 16:09:11.335 ServerApp] 404 GET /static/lab/2040.6489997c35a5d7b0b100.js.map?v=6489997c35a5d7b0b100 (49.42.33.36) 1.69ms referer=None
+[W 2025-06-28 16:09:11.358 ServerApp] 404 GET /static/lab/3308.3a94151c0d57440646ab.js.map?v=3a94151c0d57440646ab (49.42.33.36) 1.72ms referer=None
+[W 2025-06-28 16:09:11.360 ServerApp] 404 GET /static/lab/5398.b2c7791e79b398bfd524.js.map?v=b2c7791e79b398bfd524 (49.42.33.36) 1.27ms referer=None
+[W 2025-06-28 16:09:11.367 ServerApp] 404 GET /static/lab/4631.96a143e70f005fef7b59.js.map?v=96a143e70f005fef7b59 (49.42.33.36) 1.63ms referer=None
+[W 2025-06-28 16:09:11.559 ServerApp] 404 GET /static/lab/3029.8636761a48c8422ce37f.js.map?v=8636761a48c8422ce37f (49.42.33.36) 1.76ms referer=None
+[W 2025-06-28 16:09:11.584 ServerApp] 404 GET /static/lab/4151.fd7ca59b64f0adc97032.js.map?v=fd7ca59b64f0adc97032 (49.42.33.36) 1.73ms referer=None
+[W 2025-06-28 16:09:11.635 ServerApp] 404 GET /static/lab/6080.39703b8cc7bd284ce1bd.js.map?v=39703b8cc7bd284ce1bd (49.42.33.36) 1.69ms referer=None
+[W 2025-06-28 16:09:11.675 ServerApp] 404 GET /static/lab/3502.c915d993b864739407e3.js.map?v=c915d993b864739407e3 (49.42.33.36) 1.68ms referer=None
+[W 2025-06-28 16:09:11.677 ServerApp] 404 GET /static/lab/126.1e2fb998804b27c72a3e.js.map?v=1e2fb998804b27c72a3e (49.42.33.36) 1.24ms referer=None
+[W 2025-06-28 16:09:11.945 ServerApp] 404 GET /static/lab/3496.f5b33f804f80d0ed98b0.js.map?v=f5b33f804f80d0ed98b0 (49.42.33.36) 1.66ms referer=None
+[W 2025-06-28 16:09:11.975 ServerApp] 404 GET /static/lab/1358.9ab4f57e8227ce75f427.js.map?v=9ab4f57e8227ce75f427 (49.42.33.36) 2.13ms referer=None
+[W 2025-06-28 16:09:11.976 ServerApp] 404 GET /static/lab/911.0c08f040896753efc653.js.map?v=0c08f040896753efc653 (49.42.33.36) 2.46ms referer=None
+[W 2025-06-28 16:09:11.978 ServerApp] 404 GET /static/lab/466.239a0c009f33f1cb7cab.js.map?v=239a0c009f33f1cb7cab (49.42.33.36) 1.13ms referer=None
+[W 2025-06-28 16:09:12.163 ServerApp] 404 GET /static/lab/4429.c4f083ef6b6e29345fd4.js.map?v=c4f083ef6b6e29345fd4 (49.42.33.36) 1.64ms referer=None
+[W 2025-06-28 16:09:12.168 ServerApp] 404 GET /static/lab/1249.047c76b5ea96a41605db.js.map?v=047c76b5ea96a41605db (49.42.33.36) 1.59ms referer=None
+[W 2025-06-28 16:09:12.255 ServerApp] 404 GET /static/lab/7796.80e6d936dca84c219c9e.js.map?v=80e6d936dca84c219c9e (49.42.33.36) 1.70ms referer=None
+[W 2025-06-28 16:09:12.280 ServerApp] 404 GET /static/lab/jlab_core.9193dfb13484acaca919.js.map?v=9193dfb13484acaca919 (49.42.33.36) 1.68ms referer=None
+[W 2025-06-28 16:09:12.295 ServerApp] 404 GET /static/lab/714.a8445b6bf08d4979bfe3.js.map?v=a8445b6bf08d4979bfe3 (49.42.33.36) 1.70ms referer=None
+[I 2025-06-28 16:10:39.035 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-06-28 16:29:55.206 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:3a473059-9208-4dc7-8be4-87a9e28cfd32
+[I 2025-06-28 16:30:00.119 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:3a473059-9208-4dc7-8be4-87a9e28cfd32
+[I 2025-06-28 17:18:32.687 ServerApp] Restoring connection for 91058c7e-7e6d-41e5-b223-062a28f7e41f:3a473059-9208-4dc7-8be4-87a9e28cfd32
+[I 2025-06-28 17:38:40.433 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:3a473059-9208-4dc7-8be4-87a9e28cfd32
+[I 2025-06-29 04:44:14.632 ServerApp] 302 GET / (147.185.132.248) 10.50ms
+[I 2025-06-29 04:44:14.701 LabApp] 302 GET /lab? (147.185.132.248) 6.46ms
+[I 2025-06-29 06:00:20.566 ServerApp] 302 GET / (35.203.210.181) 9.64ms
+[I 2025-06-29 06:00:20.763 LabApp] 302 GET /lab? (35.203.210.181) 4.77ms
+[I 2025-06-29 07:49:39.483 ServerApp] 302 GET / (167.94.138.180) 7.88ms
+[I 2025-06-29 07:49:43.776 ServerApp] Malformed HTTP message from 167.94.138.180: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-29 07:49:56.649 LabApp] 302 GET /lab (167.94.138.180) 4.99ms
+[I 2025-06-29 07:49:57.247 ServerApp] Malformed HTTP message from 167.94.138.180: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-29 07:50:23.160 ServerApp] Malformed HTTP message from 167.94.138.180: Unexpected HTTP version 'HTTP/2.0'
+[W 2025-06-29 07:50:56.380 ServerApp] 404 GET /.well-known/security.txt (167.94.138.180) 6.51ms referer=None
+[I 2025-06-29 10:59:50.501 ServerApp] 302 GET / (199.45.155.83) 7.94ms
+[I 2025-06-29 10:59:59.978 ServerApp] 302 GET / (199.45.155.83) 0.87ms
+[I 2025-06-29 11:00:00.635 ServerApp] Malformed HTTP message from 199.45.155.83: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-29 11:00:04.880 LabApp] 302 GET /lab (199.45.155.83) 5.13ms
+[I 2025-06-29 11:00:05.546 ServerApp] Malformed HTTP message from 199.45.155.83: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-29 11:00:14.055 ServerApp] Malformed HTTP message from 199.45.155.83: Unexpected HTTP version 'HTTP/2.0'
+[W 2025-06-29 11:00:37.588 ServerApp] 404 GET /sitemap.xml (199.45.155.83) 3.25ms referer=None
+[I 2025-06-29 14:52:03.181 ServerApp] 302 GET / (162.216.149.162) 9.76ms
+[I 2025-06-29 14:52:03.250 LabApp] 302 GET /lab? (162.216.149.162) 4.30ms
+[I 2025-06-29 17:17:48.725 ServerApp] 302 GET / (162.216.150.93) 10.09ms
+[I 2025-06-29 17:17:48.793 LabApp] 302 GET /lab? (162.216.150.93) 4.14ms
+[I 2025-06-30 04:06:12.813 ServerApp] 302 GET / (35.203.211.236) 10.27ms
+[I 2025-06-30 04:06:13.009 LabApp] 302 GET /lab? (35.203.211.236) 4.74ms
+[I 2025-06-30 11:58:20.205 ServerApp] 302 GET / (199.45.155.65) 8.97ms
+[I 2025-06-30 11:58:30.913 ServerApp] 302 GET / (199.45.155.65) 1.02ms
+[I 2025-06-30 11:58:31.763 ServerApp] Malformed HTTP message from 199.45.155.65: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-30 11:58:38.647 LabApp] 302 GET /lab (199.45.155.65) 3.81ms
+[I 2025-06-30 11:58:39.673 ServerApp] Malformed HTTP message from 199.45.155.65: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-30 11:58:48.114 ServerApp] Malformed HTTP message from 199.45.155.65: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-30 12:01:27.717 ServerApp] 302 GET / (162.142.125.33) 0.87ms
+[I 2025-06-30 12:01:33.002 ServerApp] Malformed HTTP message from 162.142.125.33: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-30 12:01:44.766 LabApp] 302 GET /lab (162.142.125.33) 1.46ms
+[I 2025-06-30 12:01:48.324 ServerApp] Malformed HTTP message from 162.142.125.33: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-30 12:02:45.558 ServerApp] Malformed HTTP message from 162.142.125.33: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-30 15:38:14.857 ServerApp] 302 GET / (147.185.133.72) 11.42ms
+[I 2025-06-30 15:38:15.114 LabApp] 302 GET /lab? (147.185.133.72) 5.76ms
+[I 2025-06-30 18:11:26.122 ServerApp] 302 GET / (35.203.211.27) 8.69ms
+[I 2025-06-30 18:11:26.317 LabApp] 302 GET /lab? (35.203.211.27) 4.34ms
+[I 2025-06-30 18:44:09.028 ServerApp] 302 GET / (185.247.137.76) 1.35ms
+[I 2025-06-30 18:44:09.236 LabApp] 302 GET /lab? (185.247.137.76) 1.13ms
+[I 2025-06-30 18:59:31.057 ServerApp] 302 GET / (49.36.218.212) 0.79ms
+[W 2025-06-30 18:59:37.843 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-06-30 18:59:41.080 ServerApp] 404 GET /img/q11.png (49.36.218.212) 4.69ms referer=http://34.58.90.64:2020/lab?
+[W 2025-06-30 18:59:41.081 ServerApp] 404 GET /img/q10.png (49.36.218.212) 5.28ms referer=http://34.58.90.64:2020/lab?
+[W 2025-06-30 18:59:41.132 ServerApp] 404 GET /img/q12.png (49.36.218.212) 1.61ms referer=http://34.58.90.64:2020/lab?
+[W 2025-06-30 19:00:05.104 ServerApp] Notebook labs/Lab4/debug/self/main.ipynb is not trusted
+[I 2025-06-30 19:00:06.338 ServerApp] Kernel started: c6d1f163-ba5b-4fb4-98f0-4a90b9901dc6
+[I 2025-06-30 19:00:06.696 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:708ef5e9-7bb1-4a40-afbe-baedb162b48f
+[I 2025-06-30 19:02:06.442 ServerApp] Saving file at /labs/Lab4/debug/self/main.ipynb
+[I 2025-06-30 19:03:11.274 ServerApp] Saving file at /labs/Lab4/debug/self/main.ipynb
+[W 2025-06-30 19:05:12.000 ServerApp] Notebook labs/Lab4/debug/self/generate.ipynb is not trusted
+[I 2025-06-30 19:05:13.242 ServerApp] Kernel started: 47555288-5bc1-4bd9-b828-c5b3b080e904
+[I 2025-06-30 19:05:27.409 ServerApp] Creating new file in /labs/Lab4/debug/self
+[I 2025-06-30 19:05:42.727 ServerApp] Saving file at /labs/Lab4/debug/self/search.py
+[I 2025-06-30 19:05:50.301 ServerApp] Starting buffering for 47555288-5bc1-4bd9-b828-c5b3b080e904:65ef437f-b97e-43db-8336-dea000ab33f8
+[I 2025-06-30 19:07:55.472 ServerApp] Creating new notebook in /labs/Lab4/bst-groups
+[I 2025-06-30 19:07:57.092 ServerApp] Kernel started: 36fb5069-e923-4894-9424-02928e7bc3d0
+[I 2025-06-30 19:09:45.206 ServerApp] Saving file at /labs/Lab4/bst-groups/testingSearchBST.ipynb
+[I 2025-06-30 19:09:46.784 ServerApp] Starting buffering for 36fb5069-e923-4894-9424-02928e7bc3d0:1c2957dd-deba-4442-b13f-706205cc1ac1
+[I 2025-06-30 19:17:12.689 ServerApp] Starting buffering for c6d1f163-ba5b-4fb4-98f0-4a90b9901dc6:ab814ea6-3d29-4f80-98b4-363cf5ff8e23
+[I 2025-06-30 21:48:00.107 ServerApp] 302 GET / (104.234.115.121) 9.05ms
+[W 2025-06-30 21:48:16.869 ServerApp] 404 GET /manage/account/login (104.234.115.121) 59.20ms referer=None
+[W 2025-06-30 21:48:23.478 ServerApp] 404 GET /admin/index.html (104.234.115.121) 2.20ms referer=None
+[W 2025-06-30 21:48:30.156 ServerApp] 404 GET /index.html (104.234.115.121) 2.67ms referer=None
+[W 2025-06-30 21:48:36.834 ServerApp] 404 GET /+CSCOE+/logon.html (104.234.115.121) 1.82ms referer=None
+[W 2025-06-30 21:48:43.496 ServerApp] 404 GET /cgi-bin/login.cgi (104.234.115.121) 1.83ms referer=None
+[W 2025-06-30 21:48:50.197 ServerApp] 404 GET /login.htm (104.234.115.121) 1.71ms referer=None
+[W 2025-06-30 21:48:56.891 ServerApp] 404 GET /login.html (104.234.115.121) 1.73ms referer=None
+[W 2025-06-30 21:49:03.607 ServerApp] 404 GET /login.jsp (104.234.115.121) 2.12ms referer=None
+[I 2025-07-01 03:55:19.712 ServerApp] Restoring connection for c6d1f163-ba5b-4fb4-98f0-4a90b9901dc6:ab814ea6-3d29-4f80-98b4-363cf5ff8e23
+[I 2025-07-01 03:55:27.284 ServerApp] Starting buffering for c6d1f163-ba5b-4fb4-98f0-4a90b9901dc6:ab814ea6-3d29-4f80-98b4-363cf5ff8e23
+[I 2025-07-01 04:06:04.477 ServerApp] 302 GET / (162.216.149.55) 1.19ms
+[I 2025-07-01 04:06:04.544 LabApp] 302 GET /lab? (162.216.149.55) 2.27ms
+[I 2025-07-01 04:08:33.882 ServerApp] 302 GET / (49.36.218.212) 0.88ms
+[W 2025-07-01 04:08:42.057 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-01 04:12:10.344 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 04:14:10.965 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 04:16:13.402 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 04:18:14.338 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 04:20:14.973 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 04:22:17.037 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 04:24:17.938 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 04:28:18.620 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[W 2025-07-01 04:29:41.524 ServerApp] 404 GET /files/dist/css/bootstrap.min.css (49.36.218.212) 3.34ms referer=None
+[W 2025-07-01 04:29:41.755 ServerApp] 404 GET /files/starter-template.css (49.36.218.212) 2.12ms referer=None
+[W 2025-07-01 04:29:41.757 ServerApp] 404 GET /files/assets/css/ie10-viewport-bug-workaround.css (49.36.218.212) 1.61ms referer=None
+[W 2025-07-01 04:29:41.793 ServerApp] 404 GET /files/dist/js/bootstrap.min.js (49.36.218.212) 2.06ms referer=None
+[W 2025-07-01 04:29:41.795 ServerApp] 404 GET /files/projects/images/cwur_logo.svg (49.36.218.212) 1.69ms referer=None
+[W 2025-07-01 04:29:41.816 ServerApp] 404 GET /files/assets/js/ie10-viewport-bug-workaround.js (49.36.218.212) 2.22ms referer=None
+[W 2025-07-01 04:29:43.290 ServerApp] 404 GET /files/assets/css/ie10-viewport-bug-workaround.css (49.36.218.212) 2.22ms referer=None
+[W 2025-07-01 04:29:43.292 ServerApp] 404 GET /files/dist/js/bootstrap.min.js (49.36.218.212) 1.79ms referer=None
+[W 2025-07-01 04:29:43.295 ServerApp] 404 GET /files/projects/images/cwur_logo.svg (49.36.218.212) 1.75ms referer=None
+[W 2025-07-01 04:29:43.297 ServerApp] 404 GET /files/dist/css/bootstrap.min.css (49.36.218.212) 1.64ms referer=None
+[W 2025-07-01 04:29:43.299 ServerApp] 404 GET /files/starter-template.css (49.36.218.212) 1.43ms referer=None
+[W 2025-07-01 04:29:43.595 ServerApp] 404 GET /files/assets/js/ie10-viewport-bug-workaround.js (49.36.218.212) 2.19ms referer=None
+[W 2025-07-01 04:30:03.053 ServerApp] 404 GET /files/dist/css/bootstrap.min.css (49.36.218.212) 1.72ms referer=None
+[W 2025-07-01 04:30:03.058 ServerApp] 404 GET /files/projects/images/cwur_logo.svg (49.36.218.212) 1.61ms referer=None
+[W 2025-07-01 04:30:03.061 ServerApp] 404 GET /files/starter-template.css (49.36.218.212) 2.02ms referer=None
+[W 2025-07-01 04:30:03.062 ServerApp] 404 GET /files/assets/css/ie10-viewport-bug-workaround.css (49.36.218.212) 2.43ms referer=None
+[W 2025-07-01 04:30:03.064 ServerApp] 404 GET /files/dist/js/bootstrap.min.js (49.36.218.212) 1.16ms referer=None
+[W 2025-07-01 04:30:03.331 ServerApp] 404 GET /files/assets/js/ie10-viewport-bug-workaround.js (49.36.218.212) 1.75ms referer=None
+[I 2025-07-01 04:30:20.327 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 04:31:51.238 ServerApp] 302 GET / (148.153.56.174) 1.15ms
+[I 2025-07-01 04:31:51.425 ServerApp] 302 GET / (148.153.56.174) 0.83ms
+[I 2025-07-01 04:31:51.477 LabApp] 302 GET /lab? (148.153.56.174) 1.08ms
+[I 2025-07-01 04:32:06.890 ServerApp] 302 GET /.well-known/security.txt/ (148.153.56.174) 0.70ms
+[W 2025-07-01 04:32:06.938 ServerApp] 404 GET /.well-known/security.txt (148.153.56.174) 2.45ms referer=http://34.58.90.64:2020/.well-known/security.txt/
+[I 2025-07-01 04:32:21.003 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[W 2025-07-01 04:33:42.886 ServerApp] 404 GET /files/dist/css/bootstrap.min.css (49.36.218.212) 2.00ms referer=None
+[W 2025-07-01 04:33:42.894 ServerApp] 404 GET /files/projects/images/cwur_logo.svg (49.36.218.212) 1.75ms referer=None
+[W 2025-07-01 04:33:42.897 ServerApp] 404 GET /files/dist/js/bootstrap.min.js (49.36.218.212) 1.38ms referer=None
+[W 2025-07-01 04:33:42.899 ServerApp] 404 GET /files/assets/css/ie10-viewport-bug-workaround.css (49.36.218.212) 1.68ms referer=None
+[W 2025-07-01 04:33:42.900 ServerApp] 404 GET /files/starter-template.css (49.36.218.212) 2.04ms referer=None
+[W 2025-07-01 04:33:43.159 ServerApp] 404 GET /files/assets/js/ie10-viewport-bug-workaround.js (49.36.218.212) 1.64ms referer=None
+[W 2025-07-01 04:33:55.895 ServerApp] 404 GET /files/starter-template.css (49.36.218.212) 2.44ms referer=None
+[W 2025-07-01 04:33:55.898 ServerApp] 404 GET /files/projects/images/cwur_logo.svg (49.36.218.212) 2.00ms referer=None
+[W 2025-07-01 04:33:55.900 ServerApp] 404 GET /files/assets/css/ie10-viewport-bug-workaround.css (49.36.218.212) 2.18ms referer=None
+[W 2025-07-01 04:33:55.902 ServerApp] 404 GET /files/dist/js/bootstrap.min.js (49.36.218.212) 2.59ms referer=None
+[W 2025-07-01 04:33:55.904 ServerApp] 404 GET /files/dist/css/bootstrap.min.css (49.36.218.212) 1.79ms referer=None
+[W 2025-07-01 04:33:56.165 ServerApp] 404 GET /files/assets/js/ie10-viewport-bug-workaround.js (49.36.218.212) 2.15ms referer=None
+[I 2025-07-01 04:34:26.541 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[W 2025-07-01 04:35:50.421 ServerApp] 404 GET /files/assets/css/ie10-viewport-bug-workaround.css (49.36.218.212) 2.11ms referer=None
+[W 2025-07-01 04:35:50.423 ServerApp] 404 GET /files/starter-template.css (49.36.218.212) 1.83ms referer=None
+[W 2025-07-01 04:35:50.426 ServerApp] 404 GET /files/dist/js/bootstrap.min.js (49.36.218.212) 1.63ms referer=None
+[W 2025-07-01 04:35:50.428 ServerApp] 404 GET /files/projects/images/cwur_logo.svg (49.36.218.212) 1.46ms referer=None
+[W 2025-07-01 04:35:50.430 ServerApp] 404 GET /files/dist/css/bootstrap.min.css (49.36.218.212) 1.63ms referer=None
+[W 2025-07-01 04:35:50.703 ServerApp] 404 GET /files/assets/js/ie10-viewport-bug-workaround.js (49.36.218.212) 2.39ms referer=None
+[I 2025-07-01 04:46:30.239 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:b0518b66-bab5-4d09-8d04-fbb9a97208ed
+[I 2025-07-01 04:46:30.567 ServerApp] Restoring connection for 91058c7e-7e6d-41e5-b223-062a28f7e41f:b0518b66-bab5-4d09-8d04-fbb9a97208ed
+[I 2025-07-01 04:47:25.129 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:b0518b66-bab5-4d09-8d04-fbb9a97208ed
+[I 2025-07-01 05:46:51.289 ServerApp] Restoring connection for 91058c7e-7e6d-41e5-b223-062a28f7e41f:b0518b66-bab5-4d09-8d04-fbb9a97208ed
+[I 2025-07-01 06:43:00.254 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 06:45:10.131 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 07:12:57.950 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 07:26:23.362 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:b0518b66-bab5-4d09-8d04-fbb9a97208ed
+[I 2025-07-01 08:37:23.357 ServerApp] 302 GET / (172.236.228.197) 11.45ms
+[I 2025-07-01 12:08:37.045 ServerApp] 302 GET / (167.94.145.107) 8.15ms
+[I 2025-07-01 12:08:47.309 ServerApp] 302 GET / (167.94.145.107) 1.28ms
+[I 2025-07-01 12:08:48.384 ServerApp] Malformed HTTP message from 167.94.145.107: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-07-01 12:08:51.792 LabApp] 302 GET /lab (167.94.145.107) 6.15ms
+[I 2025-07-01 12:08:52.025 ServerApp] Malformed HTTP message from 167.94.145.107: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-07-01 12:08:59.696 ServerApp] Malformed HTTP message from 167.94.145.107: Unexpected HTTP version 'HTTP/2.0'
+[W 2025-07-01 12:09:21.199 ServerApp] 404 GET /.well-known/security.txt (167.94.145.107) 5.01ms referer=None
+[I 2025-07-01 12:25:19.251 ServerApp] Restoring connection for 91058c7e-7e6d-41e5-b223-062a28f7e41f:b0518b66-bab5-4d09-8d04-fbb9a97208ed
+[I 2025-07-01 12:27:36.843 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:b0518b66-bab5-4d09-8d04-fbb9a97208ed
+[W 2025-07-01 12:27:41.259 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-01 12:27:44.713 ServerApp] 404 GET /files/assets/css/ie10-viewport-bug-workaround.css (49.36.218.212) 1.93ms referer=None
+[W 2025-07-01 12:27:44.715 ServerApp] 404 GET /files/starter-template.css (49.36.218.212) 1.55ms referer=None
+[W 2025-07-01 12:27:44.719 ServerApp] 404 GET /files/dist/css/bootstrap.min.css (49.36.218.212) 1.60ms referer=None
+[W 2025-07-01 12:27:44.956 ServerApp] 404 GET /files/projects/images/cwur_logo.svg (49.36.218.212) 8.09ms referer=None
+[W 2025-07-01 12:27:44.997 ServerApp] 404 GET /files/assets/js/ie10-viewport-bug-workaround.js (49.36.218.212) 2.25ms referer=None
+[W 2025-07-01 12:27:45.000 ServerApp] 404 GET /files/dist/js/bootstrap.min.js (49.36.218.212) 1.69ms referer=None
+[W 2025-07-01 12:29:10.157 ServerApp] 404 GET /files/starter-template.css (49.36.218.212) 1.88ms referer=None
+[W 2025-07-01 12:29:10.159 ServerApp] 404 GET /files/projects/images/cwur_logo.svg (49.36.218.212) 1.49ms referer=None
+[W 2025-07-01 12:29:10.162 ServerApp] 404 GET /files/assets/css/ie10-viewport-bug-workaround.css (49.36.218.212) 1.46ms referer=None
+[W 2025-07-01 12:29:10.168 ServerApp] 404 GET /files/dist/css/bootstrap.min.css (49.36.218.212) 1.58ms referer=None
+[W 2025-07-01 12:29:10.178 ServerApp] 404 GET /files/dist/js/bootstrap.min.js (49.36.218.212) 1.62ms referer=None
+[W 2025-07-01 12:29:10.418 ServerApp] 404 GET /files/assets/js/ie10-viewport-bug-workaround.js (49.36.218.212) 1.78ms referer=None
+[I 2025-07-01 12:29:22.192 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:31:22.780 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:33:23.391 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:35:24.007 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:37:24.614 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:39:25.217 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:39:36.364 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:41:36.970 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:43:37.586 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:44:46.493 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:44:52.778 ServerApp] New terminal with automatic name: 1
+[I 2025-07-01 12:45:31.983 ServerApp] New terminal with automatic name: 2
+[I 2025-07-01 12:52:47.129 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+Already on 'main'
+[I 2025-07-01 12:54:47.759 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:56:48.369 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 12:57:18.929 ServerApp] 302 GET / (206.168.34.64) 1.11ms
+[I 2025-07-01 12:57:19.980 ServerApp] Malformed HTTP message from 206.168.34.64: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-07-01 12:57:26.268 LabApp] 302 GET /lab (206.168.34.64) 1.24ms
+[I 2025-07-01 12:57:27.219 ServerApp] Malformed HTTP message from 206.168.34.64: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-07-01 12:57:36.937 ServerApp] Malformed HTTP message from 206.168.34.64: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-07-01 12:58:48.952 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:00:49.545 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:02:50.119 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:04:50.700 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:06:51.285 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+error: pathspec '33850c0ebd23ae615e6823993d441f46d80b1ff0
+Author: Armin Ronacher <armin.ronacher@active-4.com>
+Date:   Tue Apr 6 13:12:57 2010 +0200
+
+    Initial checkin of stuff that exists so far.' did not match any file(s) known to git
+Note: switching to '313a70da6ef4b265f9334f909d946b2d9bbae701'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 313a70da update requirements
+HEAD is now at 313a70da update requirements
+HEAD is now at 313a70da update requirements
+Previous HEAD position was 313a70da update requirements
+HEAD is now at 7c7b5836 update pre-commit hooks
+[I 2025-07-01 13:08:51.863 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+HEAD is now at 7c7b5836 update pre-commit hooks
+Previous HEAD position was 7c7b5836 update pre-commit hooks
+HEAD is now at 24aab7a0 Merge branch '2.0.x'
+[I 2025-07-01 13:10:53.313 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+HEAD is now at 24aab7a0 Merge branch '2.0.x'
+HEAD is now at 24aab7a0 Merge branch '2.0.x'
+HEAD is now at 24aab7a0 Merge branch '2.0.x'
+[I 2025-07-01 13:12:53.938 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+HEAD is now at 24aab7a0 Merge branch '2.0.x'
+Previous HEAD position was 24aab7a0 Merge branch '2.0.x'
+HEAD is now at 313a70da update requirements
+[I 2025-07-01 13:13:30.016 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:13:34.462 ServerApp] New terminal with automatic name: 3
+HEAD is now at 313a70da update requirements
+[I 2025-07-01 13:14:32.056 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+Previous HEAD position was 313a70da update requirements
+HEAD is now at 7c7b5836 update pre-commit hooks
+error: pathspec 'hooks' did not match any file(s) known to git
+[I 2025-07-01 13:16:00.083 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+Previous HEAD position was 7c7b5836 update pre-commit hooks
+Switched to branch 'main'
+error: pathspec 'hooks' did not match any file(s) known to git
+Note: switching to '7c7b583603f85b3253b6d531d7f8e8d29060ddc7'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7c7b5836 update pre-commit hooks
+Previous HEAD position was 7c7b5836 update pre-commit hooks
+HEAD is now at e1dce5c3 Fix typo in docs (#4261)
+error: pathspec 'hooks' did not match any file(s) known to git
+Previous HEAD position was e1dce5c3 Fix typo in docs (#4261)
+HEAD is now at 7c7b5836 update pre-commit hooks
+HEAD is now at 7c7b5836 update pre-commit hooks
+[I 2025-07-01 13:18:02.602 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+error: pathspec 'hooks' did not match any file(s) known to git
+error: pathspec 'hooks' did not match any file(s) known to git
+[I 2025-07-01 13:20:04.287 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:20:04.536 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+Previous HEAD position was 7c7b5836 update pre-commit hooks
+Switched to branch 'main'
+Note: switching to 'f878919753a909e45b2d5448aa175f4f9129ff24'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at f8789197 With -> with in headline
+[I 2025-07-01 13:30:05.425 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+Previous HEAD position was f8789197 With -> with in headline
+Switched to branch 'main'
+Already on 'main'
+Already on 'main'
+[I 2025-07-01 13:34:06.433 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:36:07.051 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:38:04.459 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:38:58.660 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:41:00.361 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:43:00.972 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:45:02.137 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:47:03.033 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:49:04.187 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:51:05.425 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:53:06.185 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:55:07.662 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:56:08.301 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:56:14.858 ServerApp] Kernel restarted: 91058c7e-7e6d-41e5-b223-062a28f7e41f
+[I 2025-07-01 13:56:15.140 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:d0d7ee91-b4b6-48b9-ab48-a7049c34220b
+[I 2025-07-01 13:56:15.401 ServerApp] Restoring connection for 91058c7e-7e6d-41e5-b223-062a28f7e41f:d0d7ee91-b4b6-48b9-ab48-a7049c34220b
+[I 2025-07-01 13:56:36.815 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:56:40.240 ServerApp] Kernel restarted: 91058c7e-7e6d-41e5-b223-062a28f7e41f
+[I 2025-07-01 13:56:40.512 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:d0d7ee91-b4b6-48b9-ab48-a7049c34220b
+[I 2025-07-01 13:56:40.804 ServerApp] Restoring connection for 91058c7e-7e6d-41e5-b223-062a28f7e41f:d0d7ee91-b4b6-48b9-ab48-a7049c34220b
+Already on 'main'
+Already on 'main'
+Note: switching to 'f878919753a909e45b2d5448aa175f4f9129ff24'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at f8789197 With -> with in headline
+Previous HEAD position was f8789197 With -> with in headline
+Switched to branch 'main'
+[I 2025-07-01 13:57:24.352 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:57:39.776 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:57:44.741 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 13:57:47.644 ServerApp] Kernel restarted: 91058c7e-7e6d-41e5-b223-062a28f7e41f
+[I 2025-07-01 13:57:47.930 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:d0d7ee91-b4b6-48b9-ab48-a7049c34220b
+[I 2025-07-01 13:57:48.188 ServerApp] Restoring connection for 91058c7e-7e6d-41e5-b223-062a28f7e41f:d0d7ee91-b4b6-48b9-ab48-a7049c34220b
+Already on 'main'
+Already on 'main'
+Note: switching to 'f878919753a909e45b2d5448aa175f4f9129ff24'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at f8789197 With -> with in headline
+Previous HEAD position was f8789197 With -> with in headline
+Switched to branch 'main'
+[I 2025-07-01 13:58:55.575 ServerApp] Saving file at /projects/mp2/mp2.ipynb
+[I 2025-07-01 14:00:25.393 ServerApp] Starting buffering for 91058c7e-7e6d-41e5-b223-062a28f7e41f:d0d7ee91-b4b6-48b9-ab48-a7049c34220b
