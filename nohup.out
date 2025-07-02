@@ -130,3 +130,46 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2025-06-28 15:44:17.261 ServerApp] http://instance-20250618-195632:1099/lab
 [I 2025-06-28 15:44:17.261 ServerApp]  or http://127.0.0.1:1099/lab
 [I 2025-06-28 15:44:17.261 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-02 18:52:53.824 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-02 18:52:53.829 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-02 18:52:55.255 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-02 18:52:55.350 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-02 18:52:55.378 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-02 18:52:55.378 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-02 18:52:55.384 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-02 18:52:55.422 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-02 18:52:55.422 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-02 18:52:55.422 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-02 18:52:55.422 ServerApp] http://instance-20250618-195632:2911/lab
+[I 2025-07-02 18:52:55.422 ServerApp]  or http://127.0.0.1:2911/lab
+[I 2025-07-02 18:52:55.422 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-02 18:53:01.475 ServerApp] 302 GET / (49.36.218.82) 0.78ms
+[W 2025-07-02 18:53:01.757 ServerApp] Clearing invalid/expired login cookie username-34-58-90-64-2911
+[W 2025-07-02 18:53:01.758 LabApp] Clearing invalid/expired login cookie username-34-58-90-64-2911
+[I 2025-07-02 18:53:01.759 LabApp] 302 GET /lab? (49.36.218.82) 2.09ms
+[W 2025-07-02 18:53:07.816 ServerApp] 401 POST /login?next=%2Flab%3F (49.36.218.82) 151.12ms referer=http://34.58.90.64:2911/login?next=%2Flab%3F
+[W 2025-07-02 18:53:13.404 ServerApp] 401 POST /login?next=%2Flab%3F (49.36.218.82) 102.05ms referer=http://34.58.90.64:2911/login?next=%2Flab%3F
+[I 2025-07-02 18:53:21.907 ServerApp] 302 POST /login?next=%2Flab%3F (49.36.218.82) 99.75ms
+[W 2025-07-02 18:53:29.836 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-02 18:54:37.952 ServerApp] Creating new notebook in /labs/Lab5/dfs-class
+[I 2025-07-02 18:54:39.564 ServerApp] Kernel started: 7ca4b65f-fa90-4236-aea2-afb234b4dfa1
+[W 2025-07-02 18:54:40.882 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-07-02 18:56:39.199 ServerApp] Saving file at /labs/Lab5/dfs-class/Untitled.ipynb
+[I 2025-07-02 18:58:39.790 ServerApp] Saving file at /labs/Lab5/dfs-class/Untitled.ipynb
+[I 2025-07-02 19:00:41.074 ServerApp] Saving file at /labs/Lab5/dfs-class/Untitled.ipynb
+[I 2025-07-02 19:02:38.958 ServerApp] Saving file at /labs/Lab5/dfs-class/Untitled.ipynb
+[I 2025-07-02 19:03:18.829 ServerApp] Creating new notebook in /labs/Lab5/dfs-class
+[I 2025-07-02 19:03:20.461 ServerApp] Kernel started: b457eb66-d96a-4a60-9e93-696fa7612b6b
+[I 2025-07-02 19:03:42.330 ServerApp] Starting buffering for b457eb66-d96a-4a60-9e93-696fa7612b6b:70bcd12b-b9ed-40e4-8c6c-90047d3a0e38
+[I 2025-07-02 19:03:54.827 ServerApp] Creating new notebook in /projects/mp4
+[I 2025-07-02 19:03:56.483 ServerApp] Kernel started: 4cf600a1-f239-4a74-b57b-e15ab285127f
+[I 2025-07-02 19:05:56.285 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:07:57.310 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:09:57.938 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:11:58.565 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:13:59.294 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:18:00.350 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:22:01.394 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:26:55.865 ServerApp] Starting buffering for 4cf600a1-f239-4a74-b57b-e15ab285127f:5fd3c9fb-7720-415d-8cca-7167c50788da
+[I 2025-07-02 19:26:57.904 ServerApp] Starting buffering for 7ca4b65f-fa90-4236-aea2-afb234b4dfa1:cc6f778b-57e0-41c5-a3b6-0cc024ff4461
