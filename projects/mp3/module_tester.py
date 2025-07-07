@@ -66,6 +66,13 @@ def loans_test():
     ])
     assert [a.lower_age() for a in applicants] == [20, 25, 35, 75]
     loans_points += 1
+    
+        # Extra Test 1: Applicant with known and unknown race codes
+    applicant = loans.Applicant("35-44", ["1", "999", "23", "77"])
+    expected_races = {"American Indian or Alaska Native", "Filipino"}
+    assert applicant.race == expected_races
+    loans_points += 2
+
 
     # TEST: Loan class
 
@@ -130,6 +137,21 @@ def loans_test():
     assert(next(amounts) == 4000)
     assert(next(amounts) == 8000)
     loans_points += 1
+    
+        # Extra Test 2: Loan with multiple applicant and co-applicant races
+    d = {
+        "loan_amount": "500", "property_value": "1000", "interest_rate": "5.0",
+        "applicant_age": "45", 
+        "applicant_race-1": "1", "applicant_race-2": "5", "applicant_race-3": "", "applicant_race-4": "", "applicant_race-5": "",
+        "co-applicant_age": "40", 
+        "co-applicant_race-1": "2", "co-applicant_race-2": "3", "co-applicant_race-3": "", "co-applicant_race-4": "", "co-applicant_race-5": ""
+    }
+    loan = loans.Loan(d)
+    assert len(loan.applicants) == 2
+    assert loan.applicants[0].race == {"American Indian or Alaska Native", "White"}
+    assert loan.applicants[1].race == {"Asian", "Black or African American"}
+    loans_points += 2
+
 
     # TEST: Bank class
     bank = loans.Bank("First Home Bank")
