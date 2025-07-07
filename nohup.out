@@ -874,3 +874,47 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2025-07-07 04:13:02.707 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:eeb5fb9d-535c-484a-9676-258d2f6e78e2
 [I 2025-07-07 04:13:10.233 ServerApp] EOF on FD 24; stopping reading
 [I 2025-07-07 04:13:10.334 ServerApp] Terminal 1 closed
+[I 2025-07-07 04:23:08.877 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-07 04:23:08.882 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-07 04:23:09.245 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-07 04:23:09.326 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-07 04:23:09.347 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-07 04:23:09.347 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-07 04:23:09.352 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-07 04:23:09.381 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-07 04:23:09.381 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-07 04:23:09.381 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-07 04:23:09.382 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-07 04:23:09.382 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-07 04:23:09.382 ServerApp] http://instance-20250618-195632:2913/lab
+[I 2025-07-07 04:23:09.382 ServerApp]  or http://127.0.0.1:2913/lab
+[I 2025-07-07 04:23:09.382 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-07 04:23:10.454 ServerApp] Interrupted...
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2025-07-07 04:23:21.546 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-07 04:23:21.551 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-07 04:23:21.828 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-07 04:23:21.851 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-07 04:23:21.853 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-07 04:23:21.853 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-07 04:23:21.859 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-07 04:23:21.863 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-07 04:23:21.863 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-07 04:23:21.864 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-07 04:23:21.864 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-07 04:23:21.864 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-07 04:23:21.864 ServerApp] http://instance-20250618-195632:2913/lab
+[I 2025-07-07 04:23:21.864 ServerApp]  or http://127.0.0.1:2913/lab
+[I 2025-07-07 04:23:21.864 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
