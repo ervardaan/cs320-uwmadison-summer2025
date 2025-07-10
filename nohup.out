@@ -1207,3 +1207,22 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2025-07-10 14:21:22.872 ServerApp] http://instance-20250618-195632:2953/lab
 [I 2025-07-10 14:21:22.872 ServerApp]  or http://127.0.0.1:2953/lab
 [I 2025-07-10 14:21:22.872 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-10 14:41:59.942 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-10 14:41:59.948 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-10 14:42:00.732 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-10 14:42:00.783 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-10 14:42:00.792 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-10 14:42:00.792 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-10 14:42:00.797 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-10 14:42:00.813 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-10 14:42:00.814 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-10 14:42:00.814 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-10 14:42:00.814 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-10 14:42:00.815 ServerApp] The port 2914 is already in use, trying another port.
+[I 2025-07-10 14:42:00.815 ServerApp] The port 2915 is already in use, trying another port.
+[I 2025-07-10 14:42:00.815 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-10 14:42:00.815 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-10 14:42:00.815 ServerApp] http://instance-20250618-195632:2989/lab
+[I 2025-07-10 14:42:00.816 ServerApp]  or http://127.0.0.1:2989/lab
+[I 2025-07-10 14:42:00.816 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2025-07-10 14:42:00.824 ServerApp] No web browser found: could not locate runnable browser.

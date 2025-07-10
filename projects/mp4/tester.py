@@ -162,8 +162,6 @@ def ind_test():
 
     location = scrape.reveal_secrets(browser(), f'http://localhost:{port}', expected_travellog)
     ind_points += 5
-    print(secret_location)
-    print(location)
     assert location == secret_location
     ind_points += 10
 
