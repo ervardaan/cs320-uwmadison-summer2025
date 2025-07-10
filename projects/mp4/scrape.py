@@ -9,6 +9,10 @@ If you're working alone, enter `None` for the partner fields.
 Project: MP4
 Student 1: vardaan kapoor, vkapoor5
 '''
+from collections import deque
+import pandas as pd
+import os
+
 class GraphSearcher:
     def __init__(self):
         # tracks which nodes have been visited
@@ -61,6 +65,28 @@ class GraphSearcher:
         # 4) recurse
         for child in children:
             self.dfs_visit(child)
+    
+    def bfs_search(self,node):
+        self.visited.clear()
+        self.order.clear()
+        queue=deque()
+        queue.append(node)
+        self.bfs_visit(queue)
+        return self.order
+    
+    def bfs_visit(self,queue):
+        size=len(queue)
+        if size==0:
+            return
+        for i in range(size):
+            node=queue.popleft()
+            if node in self.visited:
+                return
+            self.visited.add(node)
+            children=self.visit_and_get_children(node)
+            for child in children:
+                queue.append(child)
+        self.bfs_visit(queue)
 
 class MatrixSearcher(GraphSearcher):
     def __init__(self, df: pd.DataFrame):
@@ -87,3 +113,28 @@ class MatrixSearcher(GraphSearcher):
             if val == 1
         ]
         return children
+    
+class FileSearcher(GraphSearcher):
+    def __init__(self):
+        super().__init__()
+    
+    def visit_and_get_children(self,file):
+        path = os.path.join("file_nodes", file)
+        with open(path, "r") as f:
+            lines=[]
+            for line in f.readlines():
+                lines.append(line.strip())
+        node_value=lines[0]
+        self.order.append(node_value)
+        children=[]
+        for child in lines[1].split(","):
+            if child.strip():
+                children.append(child.strip())
+        return children
+                
+    
+    def concat_order(self):
+        s=""
+        for node in self.order:
+            s+=node
+        return s
