@@ -33,3 +33,1088 @@
 [I 2025-06-22 16:15:30.998 LabApp] 302 GET /lab (199.45.155.97) 5.14ms
 [I 2025-06-22 16:15:31.765 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
 [I 2025-06-22 16:15:37.205 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-06-28 04:41:22.193 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-06-28 04:41:22.199 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-06-28 04:41:23.371 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-06-28 04:41:23.454 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-06-28 04:41:23.476 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-06-28 04:41:23.476 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-06-28 04:41:23.481 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-06-28 04:41:23.511 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-06-28 04:41:23.512 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-06-28 04:41:23.512 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-06-28 04:41:23.512 ServerApp] http://instance-20250618-195632:2012/lab
+[I 2025-06-28 04:41:23.512 ServerApp]  or http://127.0.0.1:2012/lab
+[I 2025-06-28 04:41:23.512 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2025-06-28 04:41:23.523 ServerApp] No web browser found: could not locate runnable browser.
+[I 2025-06-28 04:41:47.284 ServerApp] 302 GET / (49.36.218.78) 0.75ms
+[I 2025-06-28 04:41:47.567 LabApp] 302 GET /lab? (49.36.218.78) 0.91ms
+[I 2025-06-28 04:41:53.699 ServerApp] 302 POST /login?next=%2Flab%3F (49.36.218.78) 155.87ms
+[W 2025-06-28 04:42:08.061 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-06-28 04:42:09.933 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/05-OOP_1/05-oop_001.ipynb?content=0&1751085729996 (49.36.218.78): file or directory does not exist: 'cs-320-su-25/lecture-material/05-OOP_1/05-oop_001.ipynb'
+[W 2025-06-28 04:42:09.933 ServerApp] wrote error: "file or directory does not exist: 'cs-320-su-25/lecture-material/05-OOP_1/05-oop_001.ipynb'"
+[W 2025-06-28 04:42:09.935 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/05-OOP_1/05-oop_001.ipynb?content=0&1751085729996 (49.36.218.78) 3.51ms referer=http://34.58.90.64:2012/lab?
+[W 2025-06-28 04:42:10.184 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/05-OOP_1/05-oop.ipynb?content=0&1751085729996 (49.36.218.78): file or directory does not exist: 'cs-320-su-25/lecture-material/05-OOP_1/05-oop.ipynb'
+[W 2025-06-28 04:42:10.185 ServerApp] wrote error: "file or directory does not exist: 'cs-320-su-25/lecture-material/05-OOP_1/05-oop.ipynb'"
+[W 2025-06-28 04:42:10.185 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/05-OOP_1/05-oop.ipynb?content=0&1751085729996 (49.36.218.78) 2.01ms referer=http://34.58.90.64:2012/lab?
+[W 2025-06-28 04:42:10.189 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2/06-oop_002.ipynb?content=0&1751085729997 (49.36.218.78): file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2/06-oop_002.ipynb'
+[W 2025-06-28 04:42:10.190 ServerApp] wrote error: "file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2/06-oop_002.ipynb'"
+[W 2025-06-28 04:42:10.191 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2/06-oop_002.ipynb?content=0&1751085729997 (49.36.218.78) 2.53ms referer=http://34.58.90.64:2012/lab?
+[W 2025-06-28 04:42:10.199 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2/06-oop_001.ipynb?content=0&1751085729997 (49.36.218.78): file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2/06-oop_001.ipynb'
+[W 2025-06-28 04:42:10.200 ServerApp] wrote error: "file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2/06-oop_001.ipynb'"
+[W 2025-06-28 04:42:10.201 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2/06-oop_001.ipynb?content=0&1751085729997 (49.36.218.78) 3.22ms referer=http://34.58.90.64:2012/lab?
+[W 2025-06-28 04:42:11.741 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2?1751085731827 (49.36.218.78): file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2'
+[W 2025-06-28 04:42:11.741 ServerApp] wrote error: "file or directory does not exist: 'cs-320-su-25/lecture-material/06-OOP_2'"
+[W 2025-06-28 04:42:11.742 ServerApp] 404 GET /api/contents/cs-320-su-25/lecture-material/06-OOP_2?1751085731827 (49.36.218.78) 1.69ms referer=http://34.58.90.64:2012/lab?
+[C 2025-06-28 04:44:03.600 ServerApp] received signal 15, stopping
+[I 2025-06-28 04:44:03.601 ServerApp] Shutting down 3 extensions
+[I 2025-06-28 04:44:03.602 ServerApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2025-06-28 15:43:20.435 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-06-28 15:43:20.443 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-06-28 15:43:21.720 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-06-28 15:43:21.792 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-06-28 15:43:21.794 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-06-28 15:43:21.794 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-06-28 15:43:21.799 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-06-28 15:43:21.821 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-06-28 15:43:21.821 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-06-28 15:43:21.822 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-06-28 15:43:21.822 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-06-28 15:43:21.822 ServerApp] http://instance-20250618-195632:2912/lab
+[I 2025-06-28 15:43:21.822 ServerApp]  or http://127.0.0.1:2912/lab
+[I 2025-06-28 15:43:21.822 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-06-28 15:44:06.152 ServerApp] received signal 15, stopping
+[I 2025-06-28 15:44:06.153 ServerApp] Shutting down 3 extensions
+[I 2025-06-28 15:44:06.154 ServerApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 2025-06-28 15:44:16.978 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-06-28 15:44:16.983 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-06-28 15:44:17.229 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-06-28 15:44:17.249 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-06-28 15:44:17.251 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-06-28 15:44:17.251 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-06-28 15:44:17.255 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-06-28 15:44:17.259 ServerApp] nbclassic | extension was successfully loaded.
+[W 2025-06-28 15:44:17.259 ServerApp] Permission to listen on port 1011 denied.
+[W 2025-06-28 15:44:17.260 ServerApp] Permission to listen on port 1012 denied.
+[W 2025-06-28 15:44:17.260 ServerApp] Permission to listen on port 1013 denied.
+[W 2025-06-28 15:44:17.260 ServerApp] Permission to listen on port 1014 denied.
+[W 2025-06-28 15:44:17.260 ServerApp] Permission to listen on port 1015 denied.
+[I 2025-06-28 15:44:17.261 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-06-28 15:44:17.261 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-06-28 15:44:17.261 ServerApp] http://instance-20250618-195632:1099/lab
+[I 2025-06-28 15:44:17.261 ServerApp]  or http://127.0.0.1:1099/lab
+[I 2025-06-28 15:44:17.261 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-02 18:52:53.824 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-02 18:52:53.829 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-02 18:52:55.255 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-02 18:52:55.350 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-02 18:52:55.378 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-02 18:52:55.378 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-02 18:52:55.384 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-02 18:52:55.422 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-02 18:52:55.422 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-02 18:52:55.422 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-02 18:52:55.422 ServerApp] http://instance-20250618-195632:2911/lab
+[I 2025-07-02 18:52:55.422 ServerApp]  or http://127.0.0.1:2911/lab
+[I 2025-07-02 18:52:55.422 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-02 18:53:01.475 ServerApp] 302 GET / (49.36.218.82) 0.78ms
+[W 2025-07-02 18:53:01.757 ServerApp] Clearing invalid/expired login cookie username-34-58-90-64-2911
+[W 2025-07-02 18:53:01.758 LabApp] Clearing invalid/expired login cookie username-34-58-90-64-2911
+[I 2025-07-02 18:53:01.759 LabApp] 302 GET /lab? (49.36.218.82) 2.09ms
+[W 2025-07-02 18:53:07.816 ServerApp] 401 POST /login?next=%2Flab%3F (49.36.218.82) 151.12ms referer=http://34.58.90.64:2911/login?next=%2Flab%3F
+[W 2025-07-02 18:53:13.404 ServerApp] 401 POST /login?next=%2Flab%3F (49.36.218.82) 102.05ms referer=http://34.58.90.64:2911/login?next=%2Flab%3F
+[I 2025-07-02 18:53:21.907 ServerApp] 302 POST /login?next=%2Flab%3F (49.36.218.82) 99.75ms
+[W 2025-07-02 18:53:29.836 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-02 18:54:37.952 ServerApp] Creating new notebook in /labs/Lab5/dfs-class
+[I 2025-07-02 18:54:39.564 ServerApp] Kernel started: 7ca4b65f-fa90-4236-aea2-afb234b4dfa1
+[W 2025-07-02 18:54:40.882 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-07-02 18:56:39.199 ServerApp] Saving file at /labs/Lab5/dfs-class/Untitled.ipynb
+[I 2025-07-02 18:58:39.790 ServerApp] Saving file at /labs/Lab5/dfs-class/Untitled.ipynb
+[I 2025-07-02 19:00:41.074 ServerApp] Saving file at /labs/Lab5/dfs-class/Untitled.ipynb
+[I 2025-07-02 19:02:38.958 ServerApp] Saving file at /labs/Lab5/dfs-class/Untitled.ipynb
+[I 2025-07-02 19:03:18.829 ServerApp] Creating new notebook in /labs/Lab5/dfs-class
+[I 2025-07-02 19:03:20.461 ServerApp] Kernel started: b457eb66-d96a-4a60-9e93-696fa7612b6b
+[I 2025-07-02 19:03:42.330 ServerApp] Starting buffering for b457eb66-d96a-4a60-9e93-696fa7612b6b:70bcd12b-b9ed-40e4-8c6c-90047d3a0e38
+[I 2025-07-02 19:03:54.827 ServerApp] Creating new notebook in /projects/mp4
+[I 2025-07-02 19:03:56.483 ServerApp] Kernel started: 4cf600a1-f239-4a74-b57b-e15ab285127f
+[I 2025-07-02 19:05:56.285 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:07:57.310 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:09:57.938 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:11:58.565 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:13:59.294 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:18:00.350 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:22:01.394 ServerApp] Saving file at /projects/mp4/debug.ipynb
+[I 2025-07-02 19:26:55.865 ServerApp] Starting buffering for 4cf600a1-f239-4a74-b57b-e15ab285127f:5fd3c9fb-7720-415d-8cca-7167c50788da
+[I 2025-07-02 19:26:57.904 ServerApp] Starting buffering for 7ca4b65f-fa90-4236-aea2-afb234b4dfa1:cc6f778b-57e0-41c5-a3b6-0cc024ff4461
+[I 2025-07-04 08:31:49.017 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-04 08:31:49.024 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-04 08:31:50.316 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-04 08:31:50.396 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-04 08:31:50.418 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-04 08:31:50.418 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-04 08:31:50.423 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-04 08:31:50.450 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-04 08:31:50.451 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-04 08:31:50.451 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-04 08:31:50.451 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-04 08:31:50.451 ServerApp] http://instance-20250618-195632:2912/lab
+[I 2025-07-04 08:31:50.451 ServerApp]  or http://127.0.0.1:2912/lab
+[I 2025-07-04 08:31:50.451 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-04 08:32:43.756 ServerApp] 302 GET / (49.36.216.93) 5.89ms
+[W 2025-07-04 08:32:54.952 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-04 08:33:14.237 ServerApp] Notebook projects/mp3/mp3.ipynb is not trusted
+[I 2025-07-04 08:33:15.936 ServerApp] Kernel started: c8086fab-cabf-43c1-ae32-4ad525fb808e
+[W 2025-07-04 08:34:55.359 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-04 08:34:58.332 ServerApp] Notebook projects/mp3/mp3.ipynb is not trusted
+[I 2025-07-04 08:35:16.791 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 08:38:52.176 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 08:40:04.337 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 08:40:46.902 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 08:41:19.438 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[W 2025-07-04 08:47:47.663 ServerApp] WebSocket ping timeout after 119716 ms.
+[W 2025-07-04 08:47:48.245 ServerApp] WebSocket ping timeout after 119684 ms.
+[I 2025-07-04 08:48:51.176 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 08:51:38.710 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 08:51:43.957 ServerApp] New terminal with automatic name: 1
+[I 2025-07-04 08:53:24.368 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 08:54:14.142 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 08:56:08.104 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 08:56:53.679 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 08:57:27.176 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 08:58:28.205 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 08:59:37.417 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:00:03.938 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:01:11.223 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:01:59.660 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:06:02.147 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:06:56.406 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:07:09.130 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:08:16.442 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:08:36.770 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:08:55.613 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:09:46.203 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:10:13.631 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:10:44.207 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 09:12:14.277 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:13:06.616 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:14:44.914 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 09:19:09.196 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:19:30.203 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:19:57.223 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:20:30.343 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:20:46.134 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 09:20:50.778 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:21:04.882 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:21:39.824 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:22:12.296 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:22:21.468 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:22:30.599 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:22:47.216 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 09:23:45.806 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:24:18.633 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:24:47.965 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 09:26:59.696 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:27:22.669 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:27:45.545 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 09:29:41.966 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[W 2025-07-04 09:31:45.662 ServerApp] Replacing stale connection: c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[W 2025-07-04 09:31:51.337 ServerApp] Replacing stale connection: c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[W 2025-07-04 09:31:57.214 ServerApp] Replacing stale connection: c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[W 2025-07-04 09:31:57.242 ServerApp] zmq message arrived on closed channel
+[W 2025-07-04 09:31:57.243 ServerApp] zmq message arrived on closed channel
+[I 2025-07-04 09:32:34.396 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[W 2025-07-04 09:33:14.915 ServerApp] WebSocket ping timeout after 119608 ms.
+[I 2025-07-04 09:35:01.807 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 09:35:02.314 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 09:37:32.013 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+Task exception was never retrieved
+future: <Task finished name='Task-149002' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2025-07-04 09:41:27.527 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 09:59:35.608 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+Task exception was never retrieved
+future: <Task finished name='Task-155343' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[W 2025-07-04 10:03:29.182 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x777c17acd3c0>
+[I 2025-07-04 10:07:35.618 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 10:07:36.048 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 10:07:50.996 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 10:09:09.235 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 10:13:41.240 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 10:18:52.091 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 10:18:57.390 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:19:16.922 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 10:19:26.862 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:20:19.760 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:20:49.524 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:21:00.950 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:22:31.749 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:22:34.414 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 10:22:56.338 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 10:23:16.244 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:23:41.227 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 10:24:21.490 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[E 2025-07-04 10:24:47.596 ServerApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "/home/varda/.local/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 550, in _run_callback
+        f = callback(*args, **kwargs)
+      File "/home/varda/.local/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 275, in stream_callback
+        return callback(self, msg)
+      File "/home/varda/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 578, in _on_zmq_reply
+        super()._on_zmq_reply(stream, msg)
+      File "/home/varda/.local/lib/python3.10/site-packages/jupyter_server/base/zmqhandlers.py", line 305, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 360, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 2025-07-04 10:24:47.625 ServerApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/home/varda/.local/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 600, in _handle_events
+        self._handle_recv()
+      File "/home/varda/.local/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 629, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home/varda/.local/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 550, in _run_callback
+        f = callback(*args, **kwargs)
+      File "/home/varda/.local/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 275, in stream_callback
+        return callback(self, msg)
+      File "/home/varda/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 578, in _on_zmq_reply
+        super()._on_zmq_reply(stream, msg)
+      File "/home/varda/.local/lib/python3.10/site-packages/jupyter_server/base/zmqhandlers.py", line 305, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 360, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+Exception in callback BaseAsyncIOLoop._handle_events(74, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(74, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/platform/asyncio.py", line 208, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/varda/.local/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 600, in _handle_events
+    self._handle_recv()
+  File "/home/varda/.local/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 629, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/home/varda/.local/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 550, in _run_callback
+    f = callback(*args, **kwargs)
+  File "/home/varda/.local/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 275, in stream_callback
+    return callback(self, msg)
+  File "/home/varda/.local/lib/python3.10/site-packages/jupyter_server/services/kernels/handlers.py", line 578, in _on_zmq_reply
+    super()._on_zmq_reply(stream, msg)
+  File "/home/varda/.local/lib/python3.10/site-packages/jupyter_server/base/zmqhandlers.py", line 305, in _on_zmq_reply
+    self.write_message(msg, binary=isinstance(msg, bytes))
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 360, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2025-07-04 10:26:58.616 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 10:27:08.819 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 10:27:17.959 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:27:52.648 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 10:29:07.794 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:29:49.002 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 10:31:03.312 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 10:31:09.572 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:31:28.016 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 10:31:28.589 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 10:31:44.885 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 10:32:59.841 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:35:00.600 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:35:14.765 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 10:36:52.902 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 10:37:02.223 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:38:37.979 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 10:39:03.263 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:41:04.238 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:41:18.708 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 10:42:19.273 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:42:39.023 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 10:44:20.385 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:44:40.276 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 10:46:21.416 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:47:02.466 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 10:48:22.277 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:50:23.393 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:51:04.575 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 10:51:38.418 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 10:52:24.117 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:52:25.865 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 10:53:54.757 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 10:54:14.094 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:54:41.268 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 10:55:05.829 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 10:57:19.134 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:57:49.542 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 10:58:14.165 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 10:58:43.843 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 10:59:50.683 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:00:16.007 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 11:00:39.947 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:01:51.943 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:02:27.703 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:02:36.855 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:02:44.692 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 11:02:58.140 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:03:26.932 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:03:36.263 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:04:22.030 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 11:05:27.653 ServerApp] Saving file at /projects/mp3/loans.py
+Task exception was never retrieved
+future: <Task finished name='Task-195825' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[W 2025-07-04 11:06:26.375 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x777c167f8400>
+Task exception was never retrieved
+future: <Task finished name='Task-196175' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2025-07-04 11:07:28.421 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:07:38.928 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:08:03.453 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:08:46.770 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+Task exception was never retrieved
+future: <Task finished name='Task-197798' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[W 2025-07-04 11:09:09.833 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x777c1af22590>
+[I 2025-07-04 11:10:47.503 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 11:12:00.803 ServerApp] Saving file at /projects/mp3/loans.py
+Task exception was never retrieved
+future: <Task finished name='Task-199599' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/varda/.local/lib/python3.10/site-packages/tornado/websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2025-07-04 11:12:53.100 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:14:09.747 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:15:14.349 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:15:45.772 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:73c3d06d-dbcb-4e8c-92e7-5ea2ad69aa15
+[I 2025-07-04 11:17:28.398 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:19:33.802 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:25:56.179 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:26:03.041 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:27:54.707 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:28:23.793 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:28:45.492 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:28:49.618 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 11:28:55.057 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:29:12.531 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:29:45.641 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 11:30:12.235 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:30:20.287 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:31:27.929 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:31:35.253 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:31:56.487 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:32:14.618 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:32:21.347 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:33:47.343 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 11:34:22.337 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:34:31.258 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:34:38.283 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:35:11.407 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:35:47.731 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:35:48.100 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:35:48.122 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 11:37:27.536 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 11:37:55.221 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:39:26.671 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:39:43.004 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:39:52.581 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:40:23.840 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:40:33.298 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:42:13.420 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:42:21.327 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:42:32.835 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[W 2025-07-04 11:42:38.894 ServerApp] 400 GET /api/contents/projects/mp3/wi.zip?type=file&content=1&format=text&1751629359506 (157.38.3.132): /home/varda/labs-and-projects/projects/mp3/wi.zip is not UTF-8 encoded
+[W 2025-07-04 11:42:38.895 ServerApp] wrote error: '/home/varda/labs-and-projects/projects/mp3/wi.zip is not UTF-8 encoded'
+[W 2025-07-04 11:42:38.895 ServerApp] 400 GET /api/contents/projects/mp3/wi.zip?type=file&content=1&format=text&1751629359506 (157.38.3.132) 305.60ms referer=http://34.58.90.64:2911/lab/tree/projects/mp3/mp3.ipynb
+[I 2025-07-04 11:43:02.904 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:43:19.238 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:43:28.100 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:43:45.792 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:44:08.577 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:44:42.683 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:45:01.398 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:45:26.022 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:45:42.239 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:46:37.365 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:46:53.263 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:47:34.778 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:48:10.159 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:49:21.300 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:49:31.054 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:49:48.896 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:49:59.159 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:49:59.689 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:50:06.720 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:50:07.099 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:50:16.356 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:50:17.322 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:50:23.981 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:50:24.384 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:50:33.783 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:50:34.156 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:50:59.891 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:51:49.504 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:52:05.800 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:52:15.166 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:52:26.055 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:54:31.126 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:55:05.393 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:f427ea9c-8a0c-4132-ba16-b6e797227c81
+[I 2025-07-04 11:55:18.252 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:55:22.746 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:55:29.656 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:55:30.060 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:55:36.457 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:55:36.917 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:55:43.477 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:55:44.039 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:55:52.876 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:55:53.312 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:02.719 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:03.305 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:11.321 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:11.891 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:20.157 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:20.907 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:32.028 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:32.682 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:39.447 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:39.827 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:46.106 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:46.773 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:56:59.796 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:57:00.470 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:57:08.157 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:57:08.544 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:57:14.098 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:57:14.597 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:57:18.950 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:57:22.232 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:01.468 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:07.964 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:09.024 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:15.746 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:16.114 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:22.078 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:22.450 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:30.183 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:31.084 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:38.100 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:38.762 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:46.528 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:46.915 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:56.644 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:58:57.332 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:59:05.028 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:59:05.676 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:59:13.295 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:59:13.940 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:59:19.680 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 11:59:23.149 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:59:23.898 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:59:32.864 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:59:33.483 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:59:40.197 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:59:40.857 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 11:59:48.912 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 12:00:05.469 ServerApp] Starting buffering for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 12:00:05.843 ServerApp] Restoring connection for c8086fab-cabf-43c1-ae32-4ad525fb808e:ff43320a-3871-4a32-ba9b-dda286dae7c0
+[I 2025-07-04 12:00:06.728 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 12:00:18.384 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 2025-07-04 15:34:19.832 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-04 15:34:19.841 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-04 15:34:21.142 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-04 15:34:21.224 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-04 15:34:21.249 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-04 15:34:21.249 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-04 15:34:21.255 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-04 15:34:21.286 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-04 15:34:21.287 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-04 15:34:21.287 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-04 15:34:21.287 ServerApp] http://instance-20250618-195632:2911/lab
+[I 2025-07-04 15:34:21.287 ServerApp]  or http://127.0.0.1:2911/lab
+[I 2025-07-04 15:34:21.287 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-04 15:34:25.593 ServerApp] 302 GET / (49.36.218.200) 0.88ms
+[W 2025-07-04 15:34:31.276 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-04 15:34:35.458 ServerApp] 404 GET /img/bst_height.png (49.36.218.200) 44.62ms referer=http://34.58.90.64:2911/lab?
+[W 2025-07-04 15:34:35.461 ServerApp] 404 GET /img/q7.png (49.36.218.200) 1.99ms referer=http://34.58.90.64:2911/lab?
+[W 2025-07-04 15:34:35.462 ServerApp] 404 GET /img/q6.png (49.36.218.200) 2.33ms referer=http://34.58.90.64:2911/lab?
+[W 2025-07-04 15:34:35.761 ServerApp] 404 GET /img/q8.png (49.36.218.200) 1.49ms referer=http://34.58.90.64:2911/lab?
+[I 2025-07-04 15:34:36.597 ServerApp] Kernel started: 60aede45-331d-400b-95ac-0484ab59d78d
+[W 2025-07-04 15:34:37.795 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-07-04 15:35:59.265 ServerApp] Interrupted...
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 2025-07-04 15:36:23.128 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-04 15:36:23.152 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-04 15:36:24.254 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-04 15:36:24.313 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-04 15:36:24.315 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-04 15:36:24.315 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-04 15:36:24.321 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-04 15:36:24.339 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-04 15:36:24.340 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-04 15:36:24.340 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-04 15:36:24.340 ServerApp] http://instance-20250618-195632:2911/lab
+[I 2025-07-04 15:36:24.340 ServerApp]  or http://127.0.0.1:2911/lab
+[I 2025-07-04 15:36:24.340 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-04 15:36:37.261 ServerApp] 302 GET / (49.36.218.200) 1.18ms
+[W 2025-07-04 15:36:43.201 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-04 15:36:46.701 ServerApp] 404 GET /img/bst_height.png (49.36.218.200) 19.96ms referer=http://34.58.90.64:2911/lab?
+[W 2025-07-04 15:36:46.706 ServerApp] 404 GET /img/q6.png (49.36.218.200) 1.56ms referer=http://34.58.90.64:2911/lab?
+[W 2025-07-04 15:36:46.818 ServerApp] 404 GET /img/q7.png (49.36.218.200) 1.65ms referer=http://34.58.90.64:2911/lab?
+[I 2025-07-04 15:37:28.292 ServerApp] Kernel started: 1da4a144-7782-42ec-be54-8480b6e5ba6d
+[W 2025-07-04 15:37:29.091 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-07-04 15:38:21.101 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:38:47.004 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 15:39:00.968 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:39:45.784 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:39:56.547 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 15:40:14.488 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:40:16.598 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 15:40:36.377 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:40:38.388 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 15:41:09.992 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:41:12.493 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 15:42:18.178 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:42:23.511 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 15:42:33.675 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:42:37.955 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 15:42:52.716 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-07-04 15:42:52.729 ServerApp] kernel 1da4a144-7782-42ec-be54-8480b6e5ba6d restarted
+[I 2025-07-04 15:42:53.080 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-04 15:42:53.412 ServerApp] Restoring connection for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-04 15:43:12.865 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 15:44:34.762 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:44:57.922 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:46:58.653 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:47:47.804 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:48:18.404 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:49:03.167 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:49:12.026 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 15:49:42.905 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:50:17.942 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:51:13.122 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 15:52:18.685 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:54:19.294 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:56:01.577 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 15:56:18.183 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 15:58:00.473 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:00:02.424 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 16:02:03.154 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 16:08:03.911 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 16:08:29.429 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-04 16:10:01.179 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:10:35.482 ServerApp] New terminal with automatic name: 1
+[I 2025-07-04 16:11:42.345 ServerApp] Kernel restarted: 1da4a144-7782-42ec-be54-8480b6e5ba6d
+[I 2025-07-04 16:11:42.639 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-04 16:11:42.947 ServerApp] Restoring connection for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-04 16:11:59.130 ServerApp] Kernel restarted: 1da4a144-7782-42ec-be54-8480b6e5ba6d
+[I 2025-07-04 16:11:59.432 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-04 16:11:59.722 ServerApp] Restoring connection for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-04 16:12:01.903 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:12:30.162 ServerApp] Kernel restarted: 1da4a144-7782-42ec-be54-8480b6e5ba6d
+[I 2025-07-04 16:12:30.452 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-04 16:12:30.856 ServerApp] Restoring connection for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-04 16:12:30.869 ServerApp] Replaying 3 buffered messages
+[I 2025-07-04 16:13:04.268 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:20:24.272 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:24:58.246 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:26:59.029 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:28:59.756 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:31:00.385 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:33:01.098 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:33:09.904 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:35:10.648 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:35:50.886 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:37:16.299 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:39:17.867 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:41:04.932 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:41:40.600 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:42:19.793 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:43:11.479 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:43:15.442 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:43:18.146 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:43:18.851 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:43:44.065 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:44:26.197 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-04 16:44:47.769 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:45:14.967 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:45:25.034 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:45:38.766 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-04 16:45:41.580 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-04 17:13:05.316 ServerApp] Restoring connection for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-04 17:13:12.422 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-04 20:37:33.810 ServerApp] Malformed HTTP message from 162.216.149.246: Malformed HTTP request line
+[I 2025-07-04 20:37:33.883 ServerApp] 302 GET / (162.216.149.246) 2.70ms
+[I 2025-07-04 20:38:38.395 ServerApp] 302 GET / (162.216.149.246) 0.90ms
+[I 2025-07-04 20:38:38.464 LabApp] 302 GET /lab? (162.216.149.246) 3.88ms
+[I 2025-07-05 05:41:46.477 ServerApp] Restoring connection for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-05 05:41:46.571 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:cf3dcf64-3f4a-4bf7-8c86-11bf870643c4
+[I 2025-07-05 05:54:05.101 ServerApp] Malformed HTTP message from 35.203.210.248: Malformed HTTP request line
+[I 2025-07-05 05:54:05.294 ServerApp] 302 GET / (35.203.210.248) 0.89ms
+[I 2025-07-05 05:56:28.071 ServerApp] 302 GET / (35.203.210.248) 1.06ms
+[I 2025-07-05 05:56:28.266 LabApp] 302 GET /lab? (35.203.210.248) 1.17ms
+[I 2025-07-05 16:22:33.199 ServerApp] Malformed HTTP message from 162.216.150.181: Malformed HTTP request line
+[I 2025-07-05 16:22:33.269 ServerApp] 302 GET / (162.216.150.181) 0.85ms
+[I 2025-07-05 16:25:03.900 ServerApp] 302 GET / (162.216.150.181) 0.96ms
+[I 2025-07-05 16:25:03.965 LabApp] 302 GET /lab? (162.216.150.181) 0.85ms
+[I 2025-07-06 05:54:04.743 ServerApp] Malformed HTTP message from 162.216.149.36: Malformed HTTP request line
+[I 2025-07-06 05:54:04.816 ServerApp] 302 GET / (162.216.149.36) 1.27ms
+[I 2025-07-06 05:56:23.697 ServerApp] 302 GET / (162.216.149.36) 0.94ms
+[I 2025-07-06 05:56:23.762 LabApp] 302 GET /lab? (162.216.149.36) 0.82ms
+[I 2025-07-06 17:22:12.676 ServerApp] Malformed HTTP message from 35.203.210.83: Malformed HTTP request line
+[I 2025-07-06 17:22:12.880 ServerApp] 302 GET / (35.203.210.83) 0.91ms
+[I 2025-07-06 17:24:27.353 ServerApp] 302 GET / (35.203.210.83) 0.79ms
+[I 2025-07-06 17:24:27.594 LabApp] 302 GET /lab? (35.203.210.83) 0.83ms
+[I 2025-07-07 02:07:10.277 ServerApp] 302 GET / (103.104.181.47) 0.95ms
+[W 2025-07-07 02:07:15.933 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-07 02:07:18.453 ServerApp] 404 GET /img/bst_height.png (103.104.181.47) 1.92ms referer=http://34.58.90.64:2911/lab?
+[W 2025-07-07 02:07:18.534 ServerApp] 404 GET /img/q6.png (103.104.181.47) 1.74ms referer=http://34.58.90.64:2911/lab?
+[W 2025-07-07 02:07:18.582 ServerApp] 404 GET /img/q7.png (103.104.181.47) 1.53ms referer=http://34.58.90.64:2911/lab?
+[I 2025-07-07 02:13:20.440 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 02:15:21.058 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 02:16:26.279 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 02:16:49.061 ServerApp] EOF on FD 31; stopping reading
+[I 2025-07-07 02:16:49.162 ServerApp] Terminal 1 closed
+[I 2025-07-07 02:17:20.764 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:18:09.903 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 02:19:16.905 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:20:06.177 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 02:20:30.997 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 02:20:41.884 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:21:24.215 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 02:22:40.291 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 02:22:42.496 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:23:11.430 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 02:24:04.572 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:26:05.184 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:28:05.806 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:30:06.439 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:32:07.041 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:34:08.426 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:36:09.047 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:38:09.658 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:40:10.285 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:41:01.969 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-07 02:42:10.893 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:44:11.527 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:46:12.145 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:46:19.115 ServerApp] Kernel interrupted: 1da4a144-7782-42ec-be54-8480b6e5ba6d
+[I 2025-07-07 02:46:21.885 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:caddb88a-84ae-431b-92d2-ed0713c3bc13
+[I 2025-07-07 02:48:29.120 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:50:29.743 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:52:30.484 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:54:31.108 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:56:31.696 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:56:31.866 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 02:56:48.335 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 02:58:29.166 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 02:58:48.933 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:00:50.422 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:02:28.272 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:02:51.039 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:04:18.173 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:04:27.097 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:04:32.181 ServerApp] Kernel restarted: 1da4a144-7782-42ec-be54-8480b6e5ba6d
+[I 2025-07-07 03:04:32.465 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:eeb5fb9d-535c-484a-9676-258d2f6e78e2
+[I 2025-07-07 03:04:32.735 ServerApp] Restoring connection for 1da4a144-7782-42ec-be54-8480b6e5ba6d:eeb5fb9d-535c-484a-9676-258d2f6e78e2
+[I 2025-07-07 03:06:27.706 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:08:18.761 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:09:34.221 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:10:01.565 ServerApp] Malformed HTTP message from 35.203.211.236: Malformed HTTP request line
+[I 2025-07-07 03:10:01.764 ServerApp] 302 GET / (35.203.211.236) 1.01ms
+[I 2025-07-07 03:10:28.339 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:12:22.083 ServerApp] 302 GET / (35.203.211.236) 0.83ms
+[I 2025-07-07 03:12:22.277 LabApp] 302 GET /lab? (35.203.211.236) 1.24ms
+[I 2025-07-07 03:12:29.281 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:13:01.439 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:13:36.256 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:14:30.176 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:16:30.780 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:18:04.506 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:20:05.115 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:24:06.614 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:26:07.236 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:28:07.854 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:29:36.868 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:31:37.449 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:33:38.044 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:34:46.424 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:36:08.511 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:37:07.841 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:38:09.384 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:38:49.612 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:40:02.126 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:40:10.336 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:42:11.566 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:44:03.392 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:44:12.210 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:44:22.936 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:45:39.268 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:45:47.523 ServerApp] Kernel restarted: 1da4a144-7782-42ec-be54-8480b6e5ba6d
+[I 2025-07-07 03:45:47.803 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:eeb5fb9d-535c-484a-9676-258d2f6e78e2
+[I 2025-07-07 03:45:48.095 ServerApp] Restoring connection for 1da4a144-7782-42ec-be54-8480b6e5ba6d:eeb5fb9d-535c-484a-9676-258d2f6e78e2
+[I 2025-07-07 03:47:39.902 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:47:55.305 ServerApp] Saving file at /projects/mp3/search.py
+[I 2025-07-07 03:48:01.844 ServerApp] Kernel restarted: 1da4a144-7782-42ec-be54-8480b6e5ba6d
+[I 2025-07-07 03:48:02.124 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:eeb5fb9d-535c-484a-9676-258d2f6e78e2
+[I 2025-07-07 03:48:02.411 ServerApp] Restoring connection for 1da4a144-7782-42ec-be54-8480b6e5ba6d:eeb5fb9d-535c-484a-9676-258d2f6e78e2
+[I 2025-07-07 03:48:52.923 ServerApp] Saving file at /projects/mp3/mp3.ipynb
+[I 2025-07-07 03:51:25.856 ServerApp] New terminal with automatic name: 1
+[I 2025-07-07 03:53:13.197 ServerApp] Saving file at /projects/mp3/module_tester.py
+[I 2025-07-07 03:53:20.226 ServerApp] Saving file at /projects/mp3/module_tester.py
+[I 2025-07-07 03:55:31.364 ServerApp] Saving file at /projects/mp3/loans.py
+[I 2025-07-07 04:01:05.763 ServerApp] Saving file at /projects/mp3/module_tester.py
+[I 2025-07-07 04:01:24.280 ServerApp] Saving file at /projects/mp3/module_tester.py
+[I 2025-07-07 04:02:01.810 ServerApp] Saving file at /projects/mp3/module_tester.py
+[I 2025-07-07 04:02:34.329 ServerApp] Saving file at /projects/mp3/module_tester.py
+[I 2025-07-07 04:03:26.902 ServerApp] Saving file at /projects/mp3/module_tester.py
+[I 2025-07-07 04:10:01.412 ServerApp] Saving file at /projects/mp3/module_tester.py
+[I 2025-07-07 04:10:38.102 ServerApp] Saving file at /projects/mp3/module_tester.py
+[I 2025-07-07 04:13:02.707 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:eeb5fb9d-535c-484a-9676-258d2f6e78e2
+[I 2025-07-07 04:13:10.233 ServerApp] EOF on FD 24; stopping reading
+[I 2025-07-07 04:13:10.334 ServerApp] Terminal 1 closed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/varda/.local/lib/python3.10/site-packages/jupyterlab/__main__.py", line 3, in <module>
+    from jupyterlab.labapp import main
+  File "/home/varda/.local/lib/python3.10/site-packages/jupyterlab/labapp.py", line 13, in <module>
+    from jupyter_server.serverapp import flags
+  File "/home/varda/.local/lib/python3.10/site-packages/jupyter_server/serverapp.py", line 64, in <module>
+    from nbformat.sign import NotebookNotary
+  File "/home/varda/.local/lib/python3.10/site-packages/nbformat/__init__.py", line 14, in <module>
+    from . import v1, v2, v3, v4
+  File "/home/varda/.local/lib/python3.10/site-packages/nbformat/v4/__init__.py", line 24, in <module>
+    from .convert import downgrade, upgrade
+  File "/home/varda/.local/lib/python3.10/site-packages/nbformat/v4/convert.py", line 12, in <module>
+    from nbformat import v3, validator
+  File "/home/varda/.local/lib/python3.10/site-packages/nbformat/validator.py", line 17, in <module>
+    from .json_compat import ValidationError, _validator_for_name, get_current_validator
+  File "/home/varda/.local/lib/python3.10/site-packages/nbformat/json_compat.py", line 13, in <module>
+    import jsonschema
+  File "/home/varda/.local/lib/python3.10/site-packages/jsonschema/__init__.py", line 16, in <module>
+    from jsonschema.validators import (
+  File "/home/varda/.local/lib/python3.10/site-packages/jsonschema/validators.py", line 20, in <module>
+    from jsonschema_specifications import REGISTRY as SPECIFICATIONS
+  File "/home/varda/.local/lib/python3.10/site-packages/jsonschema_specifications/__init__.py", line 11, in <module>
+    REGISTRY = (_schemas() @ _EMPTY_REGISTRY).crawl()
+  File "/home/varda/.local/lib/python3.10/site-packages/referencing/_core.py", line 389, in __rmatmul__
+    for resource in new:
+  File "/home/varda/.local/lib/python3.10/site-packages/jsonschema_specifications/_core.py", line 37, in _schemas
+    contents = json.loads(path.read_text(encoding="utf-8"))
+  File "/usr/lib/python3.10/pathlib.py", line 1135, in read_text
+    return f.read()
+  File "/usr/lib/python3.10/codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+[I 2025-07-07 07:35:36.667 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-07 07:35:36.672 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-07 07:35:38.054 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-07 07:35:38.147 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-07 07:35:38.174 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-07 07:35:38.174 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-07 07:35:38.179 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-07 07:35:38.211 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-07 07:35:38.211 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-07 07:35:38.211 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-07 07:35:38.212 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-07 07:35:38.212 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-07 07:35:38.212 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-07 07:35:38.212 ServerApp] http://instance-20250618-195632:2914/lab
+[I 2025-07-07 07:35:38.212 ServerApp]  or http://127.0.0.1:2914/lab
+[I 2025-07-07 07:35:38.212 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-07 19:22:16.639 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-07 19:22:16.645 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-07 19:22:17.344 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-07 19:22:17.388 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-07 19:22:17.397 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-07 19:22:17.397 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-07 19:22:17.402 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-07 19:22:17.416 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-07 19:22:17.417 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-07 19:22:17.417 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-07 19:22:17.417 ServerApp] http://instance-20250618-195632:2911/lab
+[I 2025-07-07 19:22:17.417 ServerApp]  or http://127.0.0.1:2911/lab
+[I 2025-07-07 19:22:17.417 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-07 19:22:20.245 ServerApp] 302 GET / (103.104.181.211) 0.67ms
+[I 2025-07-07 19:22:20.613 LabApp] 302 GET /lab? (103.104.181.211) 0.87ms
+[W 2025-07-07 19:22:27.742 ServerApp] 401 POST /login?next=%2Flab%3F (103.104.181.211) 117.72ms referer=http://34.67.179.64:2911/login?next=%2Flab%3F
+[I 2025-07-07 19:22:32.707 ServerApp] 302 POST /login?next=%2Flab%3F (103.104.181.211) 114.04ms
+[W 2025-07-07 19:23:06.094 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-07 19:23:13.461 ServerApp] Kernel started: c601de7a-67f6-40ab-9caa-564c1b48ae54
+[W 2025-07-07 19:23:14.404 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-07-07 19:23:32.872 ServerApp] New terminal with automatic name: 1
+[I 2025-07-07 19:33:15.693 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:37:18.034 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:39:10.226 ServerApp] Kernel interrupted: c601de7a-67f6-40ab-9caa-564c1b48ae54
+[I 2025-07-07 19:39:14.445 ServerApp] Kernel restarted: c601de7a-67f6-40ab-9caa-564c1b48ae54
+[I 2025-07-07 19:39:18.814 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:39:18.841 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:40:12.044 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-07 19:40:12.054 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-07 19:40:12.413 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-07 19:40:12.445 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-07 19:40:12.447 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-07 19:40:12.447 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-07 19:40:12.451 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-07 19:40:12.462 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-07 19:40:12.462 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-07 19:40:12.463 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-07 19:40:12.463 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-07 19:40:12.463 ServerApp] http://instance-20250618-195632:2912/lab
+[I 2025-07-07 19:40:12.463 ServerApp]  or http://127.0.0.1:2912/lab
+[I 2025-07-07 19:40:12.463 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-07 19:40:18.744 ServerApp] Starting buffering for c601de7a-67f6-40ab-9caa-564c1b48ae54:b5dabdeb-fc2e-4fc0-929f-e0f429a59133
+[I 2025-07-07 19:40:25.299 ServerApp] 302 GET / (103.104.181.211) 0.71ms
+[W 2025-07-07 19:40:30.924 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-07 19:41:16.066 ServerApp] Kernel interrupted: c601de7a-67f6-40ab-9caa-564c1b48ae54
+[I 2025-07-07 19:41:17.655 ServerApp] Kernel interrupted: c601de7a-67f6-40ab-9caa-564c1b48ae54
+[I 2025-07-07 19:43:04.080 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:47:05.120 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:49:05.752 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:51:07.299 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:53:07.942 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:59:09.095 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:59:21.582 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:59:25.473 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:00:48.429 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:02:45.904 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:03:51.046 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:03:52.805 ServerApp] Starting buffering for c601de7a-67f6-40ab-9caa-564c1b48ae54:781059b0-88f8-4c32-8539-8577a32d26f6
+[I 2025-07-07 20:04:40.978 ServerApp] 302 GET / (103.104.181.211) 0.98ms
+[W 2025-07-07 20:04:49.525 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-07 20:05:29.199 ServerApp] Starting buffering for c601de7a-67f6-40ab-9caa-564c1b48ae54:d11c5676-60ff-4a74-98de-209ed1c3e9b3
+[I 2025-07-07 20:07:44.510 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:07:49.292 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:09:50.130 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:11:50.764 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:13:51.381 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[W 2025-07-07 20:15:08.209 ServerApp] Notebook labs/Lab6/selenium/lab6_key.ipynb is not trusted
+[I 2025-07-07 20:15:09.531 ServerApp] Kernel started: daa85611-b0a8-43fd-a19e-3b2378da4ca4
+[I 2025-07-07 20:15:51.991 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:17:53.048 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:32:18.419 ServerApp] Starting buffering for daa85611-b0a8-43fd-a19e-3b2378da4ca4:df5730e2-1919-403d-8bc3-fd986a11580a
+[I 2025-07-07 20:32:18.431 ServerApp] Starting buffering for c601de7a-67f6-40ab-9caa-564c1b48ae54:48fd30d8-8c22-4753-8b5a-faa934a35794
+[I 2025-07-07 20:32:22.180 ServerApp] Starting buffering for daa85611-b0a8-43fd-a19e-3b2378da4ca4:dabdb67f-33ab-4368-9185-74b7e6abaf69
+[I 2025-07-09 18:44:57.460 ServerApp] 302 GET / (103.104.181.19) 9.25ms
+[W 2025-07-09 18:45:19.381 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-09 18:45:40.931 ServerApp] Notebook labs/Lab7/flask-struture/part1.ipynb is not trusted
+[I 2025-07-09 18:45:42.187 ServerApp] Kernel started: 19a8e1b9-d119-4b6a-8f10-92240eaf6b19
+[I 2025-07-09 18:46:43.710 ServerApp] Saving file at /labs/Lab7/flask-struture/part1.ipynb
+[I 2025-07-09 18:48:44.585 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:48:55.309 ServerApp] New terminal with automatic name: 2
+[I 2025-07-09 18:50:01.092 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:50:17.074 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:50:46.493 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:50:52.800 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:51:05.624 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:52:40.973 ServerApp] 302 GET / (103.104.181.19) 0.77ms
+[W 2025-07-09 18:52:54.445 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-09 18:56:10.244 ServerApp] Saving file at /labs/Lab7/webpage/website.py
+[I 2025-07-09 18:58:15.770 ServerApp] Saving file at /labs/Lab7/webpage/website.py
+[I 2025-07-09 19:08:48.049 ServerApp] Starting buffering for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:c58772fb-34a0-463f-bc15-754d0b4bb4cf
+[I 2025-07-09 19:08:49.831 ServerApp] Restoring connection for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:c58772fb-34a0-463f-bc15-754d0b4bb4cf
+[I 2025-07-09 19:13:37.209 ServerApp] Starting buffering for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:26e90b07-347e-434a-9120-4515ca169c6d
+[I 2025-07-09 19:14:09.716 ServerApp] Restoring connection for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:26e90b07-347e-434a-9120-4515ca169c6d
+[I 2025-07-09 19:21:30.548 ServerApp] Starting buffering for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:c58772fb-34a0-463f-bc15-754d0b4bb4cf
+[I 2025-07-10 02:45:44.887 ServerApp] Starting buffering for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:c58772fb-34a0-463f-bc15-754d0b4bb4cf
+[I 2025-07-10 03:17:45.303 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-10 03:17:45.307 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-10 03:17:46.000 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-10 03:17:46.038 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-10 03:17:46.046 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-10 03:17:46.046 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-10 03:17:46.051 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-10 03:17:46.061 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-10 03:17:46.062 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-10 03:17:46.062 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-10 03:17:46.062 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-10 03:17:46.063 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-10 03:17:46.063 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-10 03:17:46.063 ServerApp] http://instance-20250618-195632:2914/lab
+[I 2025-07-10 03:17:46.063 ServerApp]  or http://127.0.0.1:2914/lab
+[I 2025-07-10 03:17:46.063 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-10 03:21:11.593 ServerApp] 302 GET / (103.104.181.134) 1.19ms
+[W 2025-07-10 03:21:19.969 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-10 03:21:27.319 ServerApp] Starting buffering for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:61bd87de-15bd-43c4-8577-0668627faa99
+[I 2025-07-10 03:22:13.186 ServerApp] Kernel started: 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92
+[I 2025-07-10 03:22:21.475 ServerApp] Kernel started: 73f53f1f-69eb-492e-97e5-2336709b38d9
+[I 2025-07-10 03:46:00.098 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 03:48:00.713 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 03:50:01.292 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 03:52:01.875 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 03:54:02.487 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 03:56:04.027 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:08:09.044 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:10:09.699 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:12:10.322 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:16:10.946 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:18:11.537 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:20:12.146 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:22:13.040 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:30:16.031 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:32:16.991 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:34:09.378 ServerApp] Starting buffering for 73f53f1f-69eb-492e-97e5-2336709b38d9:64eeb73f-7125-40be-9242-cdb42123e1e1
+[I 2025-07-10 04:34:09.380 ServerApp] Starting buffering for 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92:4cb99351-0415-4fea-85d9-88a15294b850
+[I 2025-07-10 04:34:11.785 ServerApp] Restoring connection for 73f53f1f-69eb-492e-97e5-2336709b38d9:64eeb73f-7125-40be-9242-cdb42123e1e1
+[I 2025-07-10 04:34:15.787 ServerApp] Starting buffering for 73f53f1f-69eb-492e-97e5-2336709b38d9:64eeb73f-7125-40be-9242-cdb42123e1e1
+[I 2025-07-10 04:34:15.796 ServerApp] Starting buffering for 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92:4cb99351-0415-4fea-85d9-88a15294b850
+[I 2025-07-10 05:15:24.582 ServerApp] Restoring connection for 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92:4cb99351-0415-4fea-85d9-88a15294b850
+[I 2025-07-10 05:15:25.490 ServerApp] Restoring connection for 73f53f1f-69eb-492e-97e5-2336709b38d9:64eeb73f-7125-40be-9242-cdb42123e1e1
+[I 2025-07-10 05:15:25.881 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 05:17:26.547 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 05:19:27.157 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:32:36.532 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:34:37.274 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:34:50.179 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:35:04.717 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:36:49.989 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:38:50.812 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:40:51.537 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 07:03:07.688 ServerApp] Starting buffering for 73f53f1f-69eb-492e-97e5-2336709b38d9:64eeb73f-7125-40be-9242-cdb42123e1e1
+[I 2025-07-10 07:03:07.695 ServerApp] Starting buffering for 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92:4cb99351-0415-4fea-85d9-88a15294b850
+[I 2025-07-10 07:16:59.840 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-10 07:16:59.846 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-10 07:17:00.574 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-10 07:17:00.617 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-10 07:17:00.625 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-10 07:17:00.625 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-10 07:17:00.631 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-10 07:17:00.642 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-10 07:17:00.643 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-10 07:17:00.643 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-10 07:17:00.643 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-10 07:17:00.643 ServerApp] The port 2914 is already in use, trying another port.
+[I 2025-07-10 07:17:00.644 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-10 07:17:00.644 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-10 07:17:00.644 ServerApp] http://instance-20250618-195632:2915/lab
+[I 2025-07-10 07:17:00.644 ServerApp]  or http://127.0.0.1:2915/lab
+[I 2025-07-10 07:17:00.644 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-10 07:17:07.225 ServerApp] 302 GET / (103.104.181.134) 0.98ms
+[W 2025-07-10 07:17:12.809 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-10 07:21:15.881 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 07:22:59.609 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[W 2025-07-10 07:23:07.744 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-10 07:24:02.254 ServerApp] Saving file at /projects/mp4/scrape.py
+[I 2025-07-10 07:25:05.680 ServerApp] Starting buffering for 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92:8832c059-a5cf-478f-bc04-bd3af001be8a
+[I 2025-07-10 07:25:05.685 ServerApp] Starting buffering for 73f53f1f-69eb-492e-97e5-2336709b38d9:2b429145-59c8-4154-9008-a34aa084c76c
+[C 2025-07-10 07:25:19.307 ServerApp] received signal 15, stopping
+[I 2025-07-10 07:25:19.309 ServerApp] Shutting down 3 extensions
+[I 2025-07-10 07:25:19.310 ServerApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
