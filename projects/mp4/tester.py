@@ -162,6 +162,7 @@ def ind_test():
 
     location = scrape.reveal_secrets(browser(), f'http://localhost:{port}', expected_travellog)
     ind_points += 5
+    
     assert location == secret_location
     ind_points += 10
 
@@ -226,4 +227,3 @@ def main():
 
 if __name__ == "__main__":
     print(json.dumps(main(), indent=2))
-
