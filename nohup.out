@@ -874,3 +874,247 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2025-07-07 04:13:02.707 ServerApp] Starting buffering for 1da4a144-7782-42ec-be54-8480b6e5ba6d:eeb5fb9d-535c-484a-9676-258d2f6e78e2
 [I 2025-07-07 04:13:10.233 ServerApp] EOF on FD 24; stopping reading
 [I 2025-07-07 04:13:10.334 ServerApp] Terminal 1 closed
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/varda/.local/lib/python3.10/site-packages/jupyterlab/__main__.py", line 3, in <module>
+    from jupyterlab.labapp import main
+  File "/home/varda/.local/lib/python3.10/site-packages/jupyterlab/labapp.py", line 13, in <module>
+    from jupyter_server.serverapp import flags
+  File "/home/varda/.local/lib/python3.10/site-packages/jupyter_server/serverapp.py", line 64, in <module>
+    from nbformat.sign import NotebookNotary
+  File "/home/varda/.local/lib/python3.10/site-packages/nbformat/__init__.py", line 14, in <module>
+    from . import v1, v2, v3, v4
+  File "/home/varda/.local/lib/python3.10/site-packages/nbformat/v4/__init__.py", line 24, in <module>
+    from .convert import downgrade, upgrade
+  File "/home/varda/.local/lib/python3.10/site-packages/nbformat/v4/convert.py", line 12, in <module>
+    from nbformat import v3, validator
+  File "/home/varda/.local/lib/python3.10/site-packages/nbformat/validator.py", line 17, in <module>
+    from .json_compat import ValidationError, _validator_for_name, get_current_validator
+  File "/home/varda/.local/lib/python3.10/site-packages/nbformat/json_compat.py", line 13, in <module>
+    import jsonschema
+  File "/home/varda/.local/lib/python3.10/site-packages/jsonschema/__init__.py", line 16, in <module>
+    from jsonschema.validators import (
+  File "/home/varda/.local/lib/python3.10/site-packages/jsonschema/validators.py", line 20, in <module>
+    from jsonschema_specifications import REGISTRY as SPECIFICATIONS
+  File "/home/varda/.local/lib/python3.10/site-packages/jsonschema_specifications/__init__.py", line 11, in <module>
+    REGISTRY = (_schemas() @ _EMPTY_REGISTRY).crawl()
+  File "/home/varda/.local/lib/python3.10/site-packages/referencing/_core.py", line 389, in __rmatmul__
+    for resource in new:
+  File "/home/varda/.local/lib/python3.10/site-packages/jsonschema_specifications/_core.py", line 37, in _schemas
+    contents = json.loads(path.read_text(encoding="utf-8"))
+  File "/usr/lib/python3.10/pathlib.py", line 1135, in read_text
+    return f.read()
+  File "/usr/lib/python3.10/codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+[I 2025-07-07 07:35:36.667 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-07 07:35:36.672 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-07 07:35:38.054 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-07 07:35:38.147 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-07 07:35:38.174 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-07 07:35:38.174 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-07 07:35:38.179 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-07 07:35:38.211 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-07 07:35:38.211 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-07 07:35:38.211 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-07 07:35:38.212 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-07 07:35:38.212 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-07 07:35:38.212 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-07 07:35:38.212 ServerApp] http://instance-20250618-195632:2914/lab
+[I 2025-07-07 07:35:38.212 ServerApp]  or http://127.0.0.1:2914/lab
+[I 2025-07-07 07:35:38.212 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-07 19:22:16.639 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-07 19:22:16.645 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-07 19:22:17.344 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-07 19:22:17.388 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-07 19:22:17.397 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-07 19:22:17.397 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-07 19:22:17.402 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-07 19:22:17.416 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-07 19:22:17.417 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-07 19:22:17.417 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-07 19:22:17.417 ServerApp] http://instance-20250618-195632:2911/lab
+[I 2025-07-07 19:22:17.417 ServerApp]  or http://127.0.0.1:2911/lab
+[I 2025-07-07 19:22:17.417 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-07 19:22:20.245 ServerApp] 302 GET / (103.104.181.211) 0.67ms
+[I 2025-07-07 19:22:20.613 LabApp] 302 GET /lab? (103.104.181.211) 0.87ms
+[W 2025-07-07 19:22:27.742 ServerApp] 401 POST /login?next=%2Flab%3F (103.104.181.211) 117.72ms referer=http://34.67.179.64:2911/login?next=%2Flab%3F
+[I 2025-07-07 19:22:32.707 ServerApp] 302 POST /login?next=%2Flab%3F (103.104.181.211) 114.04ms
+[W 2025-07-07 19:23:06.094 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-07 19:23:13.461 ServerApp] Kernel started: c601de7a-67f6-40ab-9caa-564c1b48ae54
+[W 2025-07-07 19:23:14.404 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-07-07 19:23:32.872 ServerApp] New terminal with automatic name: 1
+[I 2025-07-07 19:33:15.693 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:37:18.034 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:39:10.226 ServerApp] Kernel interrupted: c601de7a-67f6-40ab-9caa-564c1b48ae54
+[I 2025-07-07 19:39:14.445 ServerApp] Kernel restarted: c601de7a-67f6-40ab-9caa-564c1b48ae54
+[I 2025-07-07 19:39:18.814 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:39:18.841 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:40:12.044 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-07 19:40:12.054 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-07 19:40:12.413 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-07 19:40:12.445 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-07 19:40:12.447 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-07 19:40:12.447 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-07 19:40:12.451 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-07 19:40:12.462 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-07 19:40:12.462 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-07 19:40:12.463 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-07 19:40:12.463 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-07 19:40:12.463 ServerApp] http://instance-20250618-195632:2912/lab
+[I 2025-07-07 19:40:12.463 ServerApp]  or http://127.0.0.1:2912/lab
+[I 2025-07-07 19:40:12.463 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-07 19:40:18.744 ServerApp] Starting buffering for c601de7a-67f6-40ab-9caa-564c1b48ae54:b5dabdeb-fc2e-4fc0-929f-e0f429a59133
+[I 2025-07-07 19:40:25.299 ServerApp] 302 GET / (103.104.181.211) 0.71ms
+[W 2025-07-07 19:40:30.924 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-07 19:41:16.066 ServerApp] Kernel interrupted: c601de7a-67f6-40ab-9caa-564c1b48ae54
+[I 2025-07-07 19:41:17.655 ServerApp] Kernel interrupted: c601de7a-67f6-40ab-9caa-564c1b48ae54
+[I 2025-07-07 19:43:04.080 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:47:05.120 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:49:05.752 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:51:07.299 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:53:07.942 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:59:09.095 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:59:21.582 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 19:59:25.473 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:00:48.429 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:02:45.904 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:03:51.046 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:03:52.805 ServerApp] Starting buffering for c601de7a-67f6-40ab-9caa-564c1b48ae54:781059b0-88f8-4c32-8539-8577a32d26f6
+[I 2025-07-07 20:04:40.978 ServerApp] 302 GET / (103.104.181.211) 0.98ms
+[W 2025-07-07 20:04:49.525 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-07 20:05:29.199 ServerApp] Starting buffering for c601de7a-67f6-40ab-9caa-564c1b48ae54:d11c5676-60ff-4a74-98de-209ed1c3e9b3
+[I 2025-07-07 20:07:44.510 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:07:49.292 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:09:50.130 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:11:50.764 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:13:51.381 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[W 2025-07-07 20:15:08.209 ServerApp] Notebook labs/Lab6/selenium/lab6_key.ipynb is not trusted
+[I 2025-07-07 20:15:09.531 ServerApp] Kernel started: daa85611-b0a8-43fd-a19e-3b2378da4ca4
+[I 2025-07-07 20:15:51.991 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:17:53.048 ServerApp] Saving file at /labs/Lab6/selenium/lab6.ipynb
+[I 2025-07-07 20:32:18.419 ServerApp] Starting buffering for daa85611-b0a8-43fd-a19e-3b2378da4ca4:df5730e2-1919-403d-8bc3-fd986a11580a
+[I 2025-07-07 20:32:18.431 ServerApp] Starting buffering for c601de7a-67f6-40ab-9caa-564c1b48ae54:48fd30d8-8c22-4753-8b5a-faa934a35794
+[I 2025-07-07 20:32:22.180 ServerApp] Starting buffering for daa85611-b0a8-43fd-a19e-3b2378da4ca4:dabdb67f-33ab-4368-9185-74b7e6abaf69
+[I 2025-07-09 18:44:57.460 ServerApp] 302 GET / (103.104.181.19) 9.25ms
+[W 2025-07-09 18:45:19.381 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-09 18:45:40.931 ServerApp] Notebook labs/Lab7/flask-struture/part1.ipynb is not trusted
+[I 2025-07-09 18:45:42.187 ServerApp] Kernel started: 19a8e1b9-d119-4b6a-8f10-92240eaf6b19
+[I 2025-07-09 18:46:43.710 ServerApp] Saving file at /labs/Lab7/flask-struture/part1.ipynb
+[I 2025-07-09 18:48:44.585 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:48:55.309 ServerApp] New terminal with automatic name: 2
+[I 2025-07-09 18:50:01.092 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:50:17.074 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:50:46.493 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:50:52.800 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:51:05.624 ServerApp] Saving file at /labs/Lab7/flask-struture/part2.py
+[I 2025-07-09 18:52:40.973 ServerApp] 302 GET / (103.104.181.19) 0.77ms
+[W 2025-07-09 18:52:54.445 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-09 18:56:10.244 ServerApp] Saving file at /labs/Lab7/webpage/website.py
+[I 2025-07-09 18:58:15.770 ServerApp] Saving file at /labs/Lab7/webpage/website.py
+[I 2025-07-09 19:08:48.049 ServerApp] Starting buffering for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:c58772fb-34a0-463f-bc15-754d0b4bb4cf
+[I 2025-07-09 19:08:49.831 ServerApp] Restoring connection for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:c58772fb-34a0-463f-bc15-754d0b4bb4cf
+[I 2025-07-09 19:13:37.209 ServerApp] Starting buffering for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:26e90b07-347e-434a-9120-4515ca169c6d
+[I 2025-07-09 19:14:09.716 ServerApp] Restoring connection for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:26e90b07-347e-434a-9120-4515ca169c6d
+[I 2025-07-09 19:21:30.548 ServerApp] Starting buffering for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:c58772fb-34a0-463f-bc15-754d0b4bb4cf
+[I 2025-07-10 02:45:44.887 ServerApp] Starting buffering for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:c58772fb-34a0-463f-bc15-754d0b4bb4cf
+[I 2025-07-10 03:17:45.303 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-10 03:17:45.307 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-10 03:17:46.000 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-10 03:17:46.038 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-10 03:17:46.046 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-10 03:17:46.046 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-10 03:17:46.051 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-10 03:17:46.061 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-10 03:17:46.062 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-10 03:17:46.062 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-10 03:17:46.062 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-10 03:17:46.063 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-10 03:17:46.063 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-10 03:17:46.063 ServerApp] http://instance-20250618-195632:2914/lab
+[I 2025-07-10 03:17:46.063 ServerApp]  or http://127.0.0.1:2914/lab
+[I 2025-07-10 03:17:46.063 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-10 03:21:11.593 ServerApp] 302 GET / (103.104.181.134) 1.19ms
+[W 2025-07-10 03:21:19.969 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-10 03:21:27.319 ServerApp] Starting buffering for 19a8e1b9-d119-4b6a-8f10-92240eaf6b19:61bd87de-15bd-43c4-8577-0668627faa99
+[I 2025-07-10 03:22:13.186 ServerApp] Kernel started: 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92
+[I 2025-07-10 03:22:21.475 ServerApp] Kernel started: 73f53f1f-69eb-492e-97e5-2336709b38d9
+[I 2025-07-10 03:46:00.098 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 03:48:00.713 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 03:50:01.292 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 03:52:01.875 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 03:54:02.487 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 03:56:04.027 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:08:09.044 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:10:09.699 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:12:10.322 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:16:10.946 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:18:11.537 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:20:12.146 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:22:13.040 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:30:16.031 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:32:16.991 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 04:34:09.378 ServerApp] Starting buffering for 73f53f1f-69eb-492e-97e5-2336709b38d9:64eeb73f-7125-40be-9242-cdb42123e1e1
+[I 2025-07-10 04:34:09.380 ServerApp] Starting buffering for 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92:4cb99351-0415-4fea-85d9-88a15294b850
+[I 2025-07-10 04:34:11.785 ServerApp] Restoring connection for 73f53f1f-69eb-492e-97e5-2336709b38d9:64eeb73f-7125-40be-9242-cdb42123e1e1
+[I 2025-07-10 04:34:15.787 ServerApp] Starting buffering for 73f53f1f-69eb-492e-97e5-2336709b38d9:64eeb73f-7125-40be-9242-cdb42123e1e1
+[I 2025-07-10 04:34:15.796 ServerApp] Starting buffering for 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92:4cb99351-0415-4fea-85d9-88a15294b850
+[I 2025-07-10 05:15:24.582 ServerApp] Restoring connection for 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92:4cb99351-0415-4fea-85d9-88a15294b850
+[I 2025-07-10 05:15:25.490 ServerApp] Restoring connection for 73f53f1f-69eb-492e-97e5-2336709b38d9:64eeb73f-7125-40be-9242-cdb42123e1e1
+[I 2025-07-10 05:15:25.881 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 05:17:26.547 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 05:19:27.157 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:32:36.532 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:34:37.274 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:34:50.179 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:35:04.717 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:36:49.989 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:38:50.812 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 06:40:51.537 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 07:03:07.688 ServerApp] Starting buffering for 73f53f1f-69eb-492e-97e5-2336709b38d9:64eeb73f-7125-40be-9242-cdb42123e1e1
+[I 2025-07-10 07:03:07.695 ServerApp] Starting buffering for 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92:4cb99351-0415-4fea-85d9-88a15294b850
+[I 2025-07-10 07:16:59.840 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-10 07:16:59.846 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-10 07:17:00.574 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-10 07:17:00.617 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-10 07:17:00.625 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-10 07:17:00.625 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-10 07:17:00.631 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-10 07:17:00.642 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-10 07:17:00.643 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-10 07:17:00.643 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-10 07:17:00.643 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-10 07:17:00.643 ServerApp] The port 2914 is already in use, trying another port.
+[I 2025-07-10 07:17:00.644 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-10 07:17:00.644 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-10 07:17:00.644 ServerApp] http://instance-20250618-195632:2915/lab
+[I 2025-07-10 07:17:00.644 ServerApp]  or http://127.0.0.1:2915/lab
+[I 2025-07-10 07:17:00.644 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-10 07:17:07.225 ServerApp] 302 GET / (103.104.181.134) 0.98ms
+[W 2025-07-10 07:17:12.809 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-10 07:21:15.881 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[I 2025-07-10 07:22:59.609 ServerApp] Saving file at /labs/Lab5/dfs-class/workProject4.ipynb
+[W 2025-07-10 07:23:07.744 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-10 07:24:02.254 ServerApp] Saving file at /projects/mp4/scrape.py
+[I 2025-07-10 07:25:05.680 ServerApp] Starting buffering for 0f9f8b16-a5e1-4bc3-83bc-8ad282e44f92:8832c059-a5cf-478f-bc04-bd3af001be8a
+[I 2025-07-10 07:25:05.685 ServerApp] Starting buffering for 73f53f1f-69eb-492e-97e5-2336709b38d9:2b429145-59c8-4154-9008-a34aa084c76c
+[C 2025-07-10 07:25:19.307 ServerApp] received signal 15, stopping
+[I 2025-07-10 07:25:19.309 ServerApp] Shutting down 3 extensions
+[I 2025-07-10 07:25:19.310 ServerApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
