@@ -184,3 +184,43 @@ class WebSearcher(GraphSearcher):
         if not self.fragments:
             return pd.DataFrame()
         return pd.concat(self.fragments, ignore_index=True)
+
+import time
+import requests
+from selenium.webdriver.common.by import By
+import pandas as pd
+
+def reveal_secrets(driver, url, travellog):
+    
+    password = "".join(travellog["clue"].astype(str))
+    
+    driver.get(url)
+    #firs button to click->the GO BUTTON
+    password_input = driver.find_element(By.ID, "password-textbox")
+    password_input.send_keys(password)
+    
+    submit_button = driver.find_element(By.ID, "submit-button")
+    submit_button.click()
+    #give some time break so that the password can be validated and the next page can be opened which gives us another button to get the actual secret string
+    time.sleep(1)
+    #second button to click->the find secret button on the next webpage which opens up when we click the GO BUTTON
+    view_location_button = driver.find_element(By.ID, "location-button")
+    view_location_button.click()
+    # now we again wait for the final next webpage to open after we click this second button->this webpage gives us an image and secret message
+    time.sleep(1)
+    
+    image = driver.find_element(By.TAG_NAME, "img")
+    image_link = image.get_attribute("src")
+    
+    response = requests.get(image_link)
+    
+    if response.status_code == 200:
+        with open("Current_Location.jpg", "wb") as f:
+            f.write(response.content)
+    # the location text is the text which has id of "location" so we get that text and return this secret string(the text we get using find_element method)        
+    location_element = driver.find_element(By.ID, "location")
+    current_location = location_element.text
+    
+    return current_location
+
+        
