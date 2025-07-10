@@ -1,0 +1,33 @@
+[I 2025-07-10 07:29:17.027 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-10 07:29:17.037 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-10 07:29:17.365 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-10 07:29:17.387 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-10 07:29:17.389 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-10 07:29:17.389 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-10 07:29:17.394 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-10 07:29:17.398 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-10 07:29:17.398 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-10 07:29:17.398 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-10 07:29:17.399 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-10 07:29:17.399 ServerApp] The port 2914 is already in use, trying another port.
+[I 2025-07-10 07:29:17.399 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects/projects/mp4
+[I 2025-07-10 07:29:17.399 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-10 07:29:17.399 ServerApp] http://instance-20250618-195632:2915/lab
+[I 2025-07-10 07:29:17.399 ServerApp]  or http://127.0.0.1:2915/lab
+[I 2025-07-10 07:29:17.399 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-07-10 07:35:31.413 ServerApp] received signal 15, stopping
+[I 2025-07-10 07:35:31.415 ServerApp] Shutting down 3 extensions
+[I 2025-07-10 07:35:31.416 ServerApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
