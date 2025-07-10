@@ -12,6 +12,7 @@ Student 1: vardaan kapoor, vkapoor5
 from collections import deque
 import pandas as pd
 import os
+from selenium.webdriver.common.by import By
 
 class GraphSearcher:
     def __init__(self):
@@ -81,7 +82,7 @@ class GraphSearcher:
         for i in range(size):
             node=queue.popleft()
             if node in self.visited:
-                return
+                continue
             self.visited.add(node)
             children=self.visit_and_get_children(node)
             for child in children:
@@ -138,3 +139,48 @@ class FileSearcher(GraphSearcher):
         for node in self.order:
             s+=node
         return s
+    
+class WebSearcher(GraphSearcher):
+    def __init__(self, driver):
+        """
+        driver: a Selenium WebDriver instance (e.g., headless Chrome).
+        """
+        super().__init__()
+        self.driver    = driver
+        self.fragments = []   # will hold only the “clue” tables in visit order
+
+    def visit_and_get_children(self, url: str):
+        """
+        1) Navigate the driver to `url`.
+        2) Append `url` to self.order.
+        3) Scrape only the first <table> (the clue table) and append it to self.fragments.
+        4) Return every href found in <a> tags on the page as children.
+        """
+        # 1) Visit page
+        self.driver.get(url)
+
+        # 2) Record visitation
+        self.order.append(url)
+
+        # 3) Read all tables but only keep the first one
+        tables = pd.read_html(self.driver.page_source)
+        if tables:
+            self.fragments.append(tables[0])
+
+        # 4) Find all hyperlinks
+        anchors = self.driver.find_elements(By.TAG_NAME, "a")
+        children = []
+        for a in anchors:
+            href = a.get_attribute("href")
+            if href:
+                children.append(href)
+        return children
+
+    def table(self) -> pd.DataFrame:
+        """
+        Concatenate all collected clue tables (in visitation order)
+        into one DataFrame with a fresh integer index.
+        """
+        if not self.fragments:
+            return pd.DataFrame()
+        return pd.concat(self.fragments, ignore_index=True)
