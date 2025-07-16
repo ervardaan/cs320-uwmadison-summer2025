@@ -33,3 +33,57 @@
 [I 2025-06-22 16:15:30.998 LabApp] 302 GET /lab (199.45.155.97) 5.14ms
 [I 2025-06-22 16:15:31.765 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
 [I 2025-06-22 16:15:37.205 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-07-16 09:21:47.906 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-16 09:21:47.912 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-16 09:21:48.915 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-16 09:21:48.975 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-16 09:21:48.990 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-16 09:21:48.990 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-16 09:21:48.996 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-16 09:21:49.019 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-16 09:21:49.019 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-16 09:21:49.019 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-16 09:21:49.020 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-16 09:21:49.020 ServerApp] The port 2914 is already in use, trying another port.
+[I 2025-07-16 09:21:49.020 ServerApp] The port 2915 is already in use, trying another port.
+[I 2025-07-16 09:21:49.020 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-16 09:21:49.020 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-16 09:21:49.020 ServerApp] http://instance-20250618-195632:2855/lab
+[I 2025-07-16 09:21:49.020 ServerApp]  or http://127.0.0.1:2855/lab
+[I 2025-07-16 09:21:49.020 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-16 14:17:13.850 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-16 14:17:13.857 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-16 14:17:14.774 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-16 14:17:14.825 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-16 14:17:14.835 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-16 14:17:14.835 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-16 14:17:14.841 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-16 14:17:14.860 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-16 14:17:14.861 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-16 14:17:14.861 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-16 14:17:14.861 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-16 14:17:14.861 ServerApp] The port 2914 is already in use, trying another port.
+[I 2025-07-16 14:17:14.861 ServerApp] The port 2915 is already in use, trying another port.
+[I 2025-07-16 14:17:14.862 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-16 14:17:14.862 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-16 14:17:14.862 ServerApp] http://instance-20250618-195632:3010/lab
+[I 2025-07-16 14:17:14.862 ServerApp]  or http://127.0.0.1:3010/lab
+[I 2025-07-16 14:17:14.862 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-16 15:36:53.093 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-16 15:36:53.101 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-16 15:36:53.826 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-16 15:36:53.866 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-16 15:36:53.876 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-16 15:36:53.876 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-16 15:36:53.882 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-16 15:36:53.894 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-16 15:36:53.894 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-16 15:36:53.894 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-16 15:36:53.895 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-16 15:36:53.895 ServerApp] The port 2914 is already in use, trying another port.
+[I 2025-07-16 15:36:53.895 ServerApp] The port 2915 is already in use, trying another port.
+[I 2025-07-16 15:36:53.895 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-16 15:36:53.895 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-16 15:36:53.895 ServerApp] http://instance-20250618-195632:3003/lab
+[I 2025-07-16 15:36:53.895 ServerApp]  or http://127.0.0.1:3003/lab
+[I 2025-07-16 15:36:53.895 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
