@@ -1,8 +1,41 @@
 <html>
+      <head>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+      function subscribe() {
+        var email = prompt("What is your email?", "abc@xyz.lmn");
+
+        $.post({
+          type: "POST",
+          url: "email",
+          data: email,
+          contentType: "application/text; charset=utf-8",
+          dataType: "json"
+        }).done(function(data) {
+          alert(data);
+        }).fail(function(data) {
+          alert("POST failed");
+        });
+      }
+    </script>
+  </head>
+
   <body>
     <h1>Welcome!</h1>
 
     <p>Enjoy the data.</p>
        <p><a href="donate.html?from=A">Donate</a></p>
+      <p><a href="browse.html">Go to Browsing page to see all contents of the dataset</a></p>
+      <button onclick="subscribe()">Subscribe</button>
+      
+<h1>Dashboard</h1>
+
+<img src="/dashboard1.svg" alt="Latitude histogram (10 bins)"><br><br>
+<img src="/dashboard1.svg?bins=100" alt="Latitude histogram (100 bins)"><br><br>
+<img src="/dashboard2.svg" alt="Site locations scatterplot"><br><br>
+
+
+
+
   </body>
 </html>

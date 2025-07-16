@@ -1,0 +1,68 @@
+{
+  "score": 92.0,
+  "tests": [
+    {
+      "test": "has_pages",
+      "points": 10,
+      "possible": 10
+    },
+    {
+      "test": "has_links",
+      "points": 6,
+      "possible": 6
+    },
+    {
+      "test": "browse",
+      "points": 20,
+      "possible": 20
+    },
+    {
+      "test": "rate",
+      "points": 0,
+      "possible": 5,
+      "log": [
+        "========================================",
+        "TEST rate (5)",
+        "Traceback (most recent call last):",
+        "  File \"/home/varda/labs-and-projects/projects/mp5/tester.py\", line 128, in run_all_tests",
+        "    points = t.fn()",
+        "  File \"/home/varda/labs-and-projects/projects/mp5/tester.py\", line 372, in rate",
+        "    assert status == \"200 OK\"",
+        "AssertionError",
+        "",
+        ""
+      ]
+    },
+    {
+      "test": "ab_test",
+      "points": 25,
+      "possible": 25
+    },
+    {
+      "test": "email",
+      "points": 14,
+      "possible": 14
+    },
+    {
+      "test": "has_svgs",
+      "points": 3,
+      "possible": 6,
+      "log": [
+        "========================================",
+        "TEST has_svgs (6)",
+        "{'Content-Type': 'image/svg+xml; charset=utf-8', 'Content-Length': '30145'}",
+        "{'Content-Type': 'image/svg+xml; charset=utf-8', 'Content-Length': '46234'}",
+        "{'Content-Type': 'image/svg+xml; charset=utf-8', 'Content-Length': '80285'}",
+        ""
+      ]
+    },
+    {
+      "test": "dashboard_examples",
+      "points": 14,
+      "possible": 14
+    }
+  ],
+  "lint": [],
+  "date": "07/16/2025",
+  "latency": 1.5380842685699463
+}
