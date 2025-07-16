@@ -1298,3 +1298,38 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [W 2025-07-16 18:57:04.320 ServerApp] 404 GET /dashboard1.svg (49.36.219.71) 1.14ms referer=None
 [I 2025-07-16 18:57:04.434 ServerApp] Saving file at /projects/mp5/index.html
 [I 2025-07-16 18:58:34.810 ServerApp] Starting buffering for 3553f4e7-a90a-4a25-8f92-4405c39a028f:6e3494bc-c59d-40a0-a2f1-6ce4428ad7fe
+[I 2025-07-16 18:59:27.480 ServerApp] 302 GET / (49.36.219.71) 1.03ms
+[W 2025-07-16 18:59:32.249 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-16 18:59:36.805 ServerApp] 404 GET /dashboard1.svg?bins=100 (49.36.219.71) 1.48ms referer=None
+[W 2025-07-16 18:59:36.813 ServerApp] 404 GET /dashboard1.svg (49.36.219.71) 1.82ms referer=None
+[W 2025-07-16 18:59:36.823 ServerApp] 404 GET /dashboard2.svg (49.36.219.71) 1.51ms referer=None
+[W 2025-07-16 19:02:56.749 ServerApp] Notebook labs/Lab9/9-geo/main.ipynb is not trusted
+[I 2025-07-16 19:02:59.355 ServerApp] Kernel started: e28957b9-2a9f-4d18-b996-46d71ad8bc85
+[W 2025-07-16 19:03:07.162 ServerApp] Notebook labs/Lab9/9-geo/solution.ipynb is not trusted
+[I 2025-07-16 19:03:09.756 ServerApp] Kernel started: 11339e02-24a7-4be4-8796-69d79b01811a
+[I 2025-07-16 19:04:12.973 ServerApp] Kernel restarted: e28957b9-2a9f-4d18-b996-46d71ad8bc85
+[I 2025-07-16 19:05:02.434 ServerApp] Saving file at /labs/Lab9/9-geo/main.ipynb
+[I 2025-07-16 19:05:14.405 ServerApp] Saving file at /labs/Lab9/9-geo/solution.ipynb
+[W 2025-07-16 19:05:14.406 ServerApp] Notebook labs/Lab9/9-geo/solution.ipynb is not trusted
+[I 2025-07-16 19:07:03.830 ServerApp] Saving file at /labs/Lab9/9-geo/main.ipynb
+[I 2025-07-16 19:09:06.371 ServerApp] Saving file at /labs/Lab9/9-geo/main.ipynb
+[I 2025-07-16 19:10:54.586 ServerApp] Starting buffering for 11339e02-24a7-4be4-8796-69d79b01811a:61f8cc60-cc88-49be-9433-ecf2243315f5
+[I 2025-07-16 19:11:06.623 ServerApp] New terminal with automatic name: 2
+[I 2025-07-16 19:12:12.254 ServerApp] Saving file at /projects/mp5/main.py
+[I 2025-07-16 19:14:45.727 ServerApp] Saving file at /projects/mp5/main.py
+[I 2025-07-16 19:17:18.113 ServerApp] Saving file at /projects/mp5/main.py
+[I 2025-07-16 19:18:13.494 ServerApp] Creating new file in /projects/mp5
+[I 2025-07-16 19:18:56.843 ServerApp] Saving file at /projects/mp5/tester2.py
+[I 2025-07-16 19:19:40.930 ServerApp] Saving file at /projects/mp5/tester2.py
+[I 2025-07-16 19:23:19.130 ServerApp] Saving file at /projects/mp5/main.py
+[I 2025-07-16 19:23:19.340 ServerApp] Saving file at /projects/mp5/main.py
+[I 2025-07-16 19:23:47.620 ServerApp] Starting buffering for 3553f4e7-a90a-4a25-8f92-4405c39a028f:7f13ffc3-6ef5-4376-9442-0d37cf59e8fe
+[I 2025-07-16 19:23:47.629 ServerApp] Starting buffering for e28957b9-2a9f-4d18-b996-46d71ad8bc85:e23b856c-df92-467d-a0f0-a2d77d0bf3e0
+[W 2025-07-16 19:23:52.797 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-16 19:29:55.310 ServerApp] Saving file at /projects/mp5/main.py
+[I 2025-07-16 19:30:06.534 ServerApp] Saving file at /projects/mp5/main.py
+[I 2025-07-16 19:32:18.879 ServerApp] EOF on FD 32; stopping reading
+[I 2025-07-16 19:32:18.980 ServerApp] Terminal 2 closed
+[I 2025-07-16 19:32:47.955 ServerApp] Saving file at /projects/mp5/emails.txt
+[I 2025-07-16 19:32:58.241 ServerApp] New terminal with automatic name: 2
+[I 2025-07-16 19:34:01.204 ServerApp] Starting buffering for 3553f4e7-a90a-4a25-8f92-4405c39a028f:a8341a4c-d06f-46a6-8d1f-4737edae625c

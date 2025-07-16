@@ -1,5 +1,5 @@
 {
-  "score": 92.0,
+  "score": 100.0,
   "tests": [
     {
       "test": "has_pages",
@@ -18,20 +18,8 @@
     },
     {
       "test": "rate",
-      "points": 0,
-      "possible": 5,
-      "log": [
-        "========================================",
-        "TEST rate (5)",
-        "Traceback (most recent call last):",
-        "  File \"/home/varda/labs-and-projects/projects/mp5/tester.py\", line 128, in run_all_tests",
-        "    points = t.fn()",
-        "  File \"/home/varda/labs-and-projects/projects/mp5/tester.py\", line 372, in rate",
-        "    assert status == \"200 OK\"",
-        "AssertionError",
-        "",
-        ""
-      ]
+      "points": 5,
+      "possible": 5
     },
     {
       "test": "ab_test",
@@ -45,16 +33,8 @@
     },
     {
       "test": "has_svgs",
-      "points": 3,
-      "possible": 6,
-      "log": [
-        "========================================",
-        "TEST has_svgs (6)",
-        "{'Content-Type': 'image/svg+xml; charset=utf-8', 'Content-Length': '30145'}",
-        "{'Content-Type': 'image/svg+xml; charset=utf-8', 'Content-Length': '46234'}",
-        "{'Content-Type': 'image/svg+xml; charset=utf-8', 'Content-Length': '80285'}",
-        ""
-      ]
+      "points": 6,
+      "possible": 6
     },
     {
       "test": "dashboard_examples",
@@ -64,5 +44,5 @@
   ],
   "lint": [],
   "date": "07/16/2025",
-  "latency": 1.5380842685699463
+  "latency": 1.4597258567810059
 }

@@ -31,6 +31,8 @@ count=0
 version_visit={}
 num_subscribed=0
 email_list={}
+_last_visit = {}    # maps client IP → last allowed timestamp
+_visitors  = set()  # all IPs that have ever hit /browse.json
 
 @app.route("/")
 def homePage():
@@ -52,7 +54,6 @@ def homePage():
                 htmlFileRead=htmlFileRead.replace("from=A","from=B")
             else:
                 pass            
-    print(version_visit)
     return htmlFileRead
 
 @app.route("/browse.html")
@@ -60,6 +61,7 @@ def browseHTMLpage():
     contents=pd.read_csv('main.csv')
     return "<h1>{}</h1>".format("Browse")+contents.to_html()
 
+"""
 @app.route("/browse.json")
 def jsonContent():
     if(request.remote_addr not in ip_list):
@@ -78,6 +80,35 @@ def jsonContent():
 @app.route("/visitors")
 def getVisitors():
     return ip_list
+"""
+@app.route("/browse.json")
+def jsonContent():
+    ip = request.remote_addr
+    now = time.time()
+
+    # record that we've seen this IP
+    _visitors.add(ip)
+
+    last = _last_visit.get(ip)
+    if last is None or (now - last) > 60:
+        # allow
+        _last_visit[ip] = now
+        with open('main.csv', newline='', encoding='utf-8') as csvfile:
+            data = list(csv.DictReader(csvfile))
+        return jsonify(data)  # status "200 OK"
+    else:
+        # block
+        retry_after = int(60 - (now - last))
+        return Response(
+            "", 
+            status="429 TOO MANY REQUESTS",
+            headers={"Retry-After": str(retry_after)}
+        )
+
+@app.route("/visitors.json")
+def getVisitors():
+    # return JSON list of IPs
+    return jsonify(list(_visitors))
 
 @app.route("/donate.html")
 def donationPage():
@@ -133,7 +164,7 @@ def dashboard1():
     fig.savefig(out_file)
     plt.close(fig)
     with open(out_file, "rb") as f:
-        return Response(f.read(), mimetype="image/svg+xml")
+        return Response(f.read(), content_type="image/svg+xml")
 
 
 @app.route("/dashboard2.svg")
@@ -152,7 +183,7 @@ def dashboard2():
     fig.savefig(out_file)
     plt.close(fig)
     with open(out_file, "rb") as f:
-        return Response(f.read(), mimetype="image/svg+xml")
+        return Response(f.read(), content_type="image/svg+xml")
 
 if __name__=="__main__":
     app.run(host="0.0.0.0",debug=True,threaded=False)
