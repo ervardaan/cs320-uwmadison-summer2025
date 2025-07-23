@@ -33,3 +33,118 @@
 [I 2025-06-22 16:15:30.998 LabApp] 302 GET /lab (199.45.155.97) 5.14ms
 [I 2025-06-22 16:15:31.765 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
 [I 2025-06-22 16:15:37.205 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-07-23 12:34:21.336 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-23 12:34:21.342 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-23 12:34:21.927 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-23 12:34:21.966 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-23 12:34:21.992 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-23 12:34:21.992 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-23 12:34:21.997 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-23 12:34:22.009 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-23 12:34:22.010 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-23 12:34:22.010 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-23 12:34:22.010 ServerApp] http://instance-20250618-195632:2911/lab
+[I 2025-07-23 12:34:22.010 ServerApp]  or http://127.0.0.1:2911/lab
+[I 2025-07-23 12:34:22.010 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-23 12:34:30.899 ServerApp] 302 GET / (49.36.217.202) 0.71ms
+[I 2025-07-23 12:34:31.197 LabApp] 302 GET /lab? (49.36.217.202) 1.07ms
+[W 2025-07-23 12:34:39.085 ServerApp] 401 POST /login?next=%2Flab%3F (49.36.217.202) 167.63ms referer=http://34.46.107.25:2911/login?next=%2Flab%3F
+[I 2025-07-23 12:34:44.283 ServerApp] 302 POST /login?next=%2Flab%3F (49.36.217.202) 111.87ms
+[W 2025-07-23 12:34:59.892 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-23 12:35:02.476 ServerApp] Notebook labs/Lab10/house_prices.ipynb is not trusted
+[I 2025-07-23 12:35:03.866 ServerApp] Kernel started: 69aad41f-ee28-47dd-bd1d-fc38663dcfff
+[W 2025-07-23 12:35:05.001 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[W 2025-07-23 12:36:02.424 ServerApp] 400 GET /api/contents/projects/mp6/docs.zip?type=file&content=1&format=text&1753274162421 (49.36.217.202): /home/varda/labs-and-projects/projects/mp6/docs.zip is not UTF-8 encoded
+[W 2025-07-23 12:36:02.425 ServerApp] wrote error: '/home/varda/labs-and-projects/projects/mp6/docs.zip is not UTF-8 encoded'
+[W 2025-07-23 12:36:02.425 ServerApp] 400 GET /api/contents/projects/mp6/docs.zip?type=file&content=1&format=text&1753274162421 (49.36.217.202) 33.92ms referer=http://34.46.107.25:2911/lab/tree/projects/mp6
+[I 2025-07-23 12:36:15.126 ServerApp] New terminal with automatic name: 1
+[W 2025-07-23 12:52:57.937 ServerApp] Notebook projects/mp6/mp6.ipynb is not trusted
+[I 2025-07-23 12:52:59.637 ServerApp] Kernel started: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 12:53:17.927 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 12:55:18.603 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 12:57:19.278 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 12:59:20.620 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:01:21.461 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:03:22.095 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:05:02.865 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:11:03.622 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:13:04.249 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:15:04.881 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:17:05.535 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:21:06.191 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:23:08.196 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:25:08.801 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:27:09.639 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:29:10.254 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:31:10.923 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:33:11.548 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:35:12.169 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:37:13.548 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:39:14.566 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:41:16.355 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:43:17.038 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:44:16.747 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 13:47:59.995 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:36da55f2-cac6-44a1-a71c-bca0ebe95c58
+[I 2025-07-23 13:49:35.302 ServerApp] Creating new notebook in /labs/Lab9/9-geo
+[I 2025-07-23 13:49:38.715 ServerApp] Kernel started: 6fe31a85-bdcc-45ab-9a84-7036ea8e0e0b
+[I 2025-07-23 13:51:36.466 ServerApp] Saving file at /labs/Lab9/9-geo/practiceEDGAR.ipynb
+[I 2025-07-23 13:52:37.692 ServerApp] New terminal with automatic name: 2
+[I 2025-07-23 13:53:37.066 ServerApp] Saving file at /labs/Lab9/9-geo/practiceEDGAR.ipynb
+[I 2025-07-23 13:55:37.665 ServerApp] Saving file at /labs/Lab9/9-geo/practiceEDGAR.ipynb
+[I 2025-07-23 13:57:38.235 ServerApp] Saving file at /labs/Lab9/9-geo/practiceEDGAR.ipynb
+[I 2025-07-23 13:59:39.520 ServerApp] Saving file at /labs/Lab9/9-geo/practiceEDGAR.ipynb
+[I 2025-07-23 14:05:41.534 ServerApp] Saving file at /labs/Lab9/9-geo/practiceEDGAR.ipynb
+[I 2025-07-23 14:07:37.255 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:09:08.739 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:09:44.826 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:10:17.731 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:11:45.432 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:12:18.319 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:12:31.078 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:13:46.049 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:14:31.626 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:15:33.168 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:15:46.641 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:17:14.899 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:17:47.249 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:18:01.212 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:18:16.636 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:18:25.153 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:19:47.856 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:20:02.300 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:20:45.533 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:21:12.592 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:21:48.439 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:22:10.147 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:22:46.677 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:23:13.144 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:23:49.044 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:24:07.448 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:24:28.540 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:24:45.344 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:25:08.846 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:25:13.808 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:25:43.022 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:25:54.269 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:26:15.247 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:26:38.334 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:27:16.540 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:27:54.889 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:28:05.382 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:28:45.520 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:29:46.737 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:29:55.480 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:30:23.614 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:30:47.870 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:31:06.657 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:31:17.450 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:31:28.827 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:31:56.085 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:32:12.944 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:33:09.068 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:34:58.666 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 14:35:09.662 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 14:35:17.113 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:315bbe65-4582-414f-a735-8976b1e81cc9
+[I 2025-07-23 14:35:22.223 ServerApp] Starting buffering for 6fe31a85-bdcc-45ab-9a84-7036ea8e0e0b:a927770e-92bf-4fa0-bd08-ba66409acf18
+[I 2025-07-23 14:35:27.082 ServerApp] Starting buffering for 69aad41f-ee28-47dd-bd1d-fc38663dcfff:1831f938-5388-4e24-b707-5d83049a0155
