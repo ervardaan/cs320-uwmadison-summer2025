@@ -1333,3 +1333,81 @@ Please note that updating to Notebook 7 might break some of your extensions.
 [I 2025-07-16 19:32:47.955 ServerApp] Saving file at /projects/mp5/emails.txt
 [I 2025-07-16 19:32:58.241 ServerApp] New terminal with automatic name: 2
 [I 2025-07-16 19:34:01.204 ServerApp] Starting buffering for 3553f4e7-a90a-4a25-8f92-4405c39a028f:a8341a4c-d06f-46a6-8d1f-4737edae625c
+[I 2025-07-21 19:20:37.294 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-21 19:20:37.301 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-21 19:20:38.448 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-21 19:20:38.528 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-21 19:20:38.532 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-21 19:20:38.533 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-21 19:20:38.537 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-21 19:20:38.566 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-21 19:20:38.567 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-21 19:20:38.567 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-21 19:20:38.568 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-21 19:20:38.568 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-21 19:20:38.568 ServerApp] http://instance-20250618-195632:2913/lab
+[I 2025-07-21 19:20:38.568 ServerApp]  or http://127.0.0.1:2913/lab
+[I 2025-07-21 19:20:38.568 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-21 19:24:33.941 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-21 19:24:33.947 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-21 19:24:34.278 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-21 19:24:34.304 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-21 19:24:34.306 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-21 19:24:34.306 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-21 19:24:34.312 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-21 19:24:34.317 ServerApp] nbclassic | extension was successfully loaded.
+[W 2025-07-21 19:24:34.318 ServerApp] Permission to listen on port 1011 denied.
+[W 2025-07-21 19:24:34.318 ServerApp] Permission to listen on port 1012 denied.
+[W 2025-07-21 19:24:34.318 ServerApp] Permission to listen on port 1013 denied.
+[W 2025-07-21 19:24:34.318 ServerApp] Permission to listen on port 1014 denied.
+[W 2025-07-21 19:24:34.318 ServerApp] Permission to listen on port 1015 denied.
+[W 2025-07-21 19:24:34.318 ServerApp] Permission to listen on port 923 denied.
+[W 2025-07-21 19:24:34.318 ServerApp] Permission to listen on port 924 denied.
+[W 2025-07-21 19:24:34.319 ServerApp] Permission to listen on port 1009 denied.
+[W 2025-07-21 19:24:34.319 ServerApp] Permission to listen on port 1016 denied.
+[I 2025-07-21 19:24:34.319 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-21 19:24:34.319 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-21 19:24:34.319 ServerApp] http://instance-20250618-195632:1109/lab
+[I 2025-07-21 19:24:34.319 ServerApp]  or http://127.0.0.1:1109/lab
+[I 2025-07-21 19:24:34.319 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-21 19:25:32.709 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-21 19:25:32.715 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-21 19:25:33.079 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-21 19:25:33.100 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-21 19:25:33.102 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-21 19:25:33.102 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-21 19:25:33.107 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-21 19:25:33.112 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-21 19:25:33.112 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-21 19:25:33.112 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-21 19:25:33.112 ServerApp] http://instance-20250618-195632:2911/lab
+[I 2025-07-21 19:25:33.113 ServerApp]  or http://127.0.0.1:2911/lab
+[I 2025-07-21 19:25:33.113 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-21 19:25:36.518 ServerApp] 302 GET / (49.36.216.182) 0.85ms
+[W 2025-07-21 19:25:44.160 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-21 19:26:02.879 ServerApp] Notebook labs/Lab10/house_prices.ipynb is not trusted
+[I 2025-07-21 19:26:04.183 ServerApp] Kernel started: a158ada5-1cc7-4463-a09f-434897d1ad33
+[W 2025-07-21 19:26:06.049 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-07-21 19:28:03.811 ServerApp] Saving file at /labs/Lab10/house_prices.ipynb
+[I 2025-07-21 19:32:05.850 ServerApp] Saving file at /labs/Lab10/house_prices.ipynb
+[I 2025-07-21 19:34:07.634 ServerApp] Saving file at /labs/Lab10/house_prices.ipynb
+[I 2025-07-21 19:38:08.426 ServerApp] Saving file at /labs/Lab10/house_prices.ipynb
+[I 2025-07-21 19:40:10.318 ServerApp] Saving file at /labs/Lab10/house_prices.ipynb
+[I 2025-07-21 19:54:11.661 ServerApp] Saving file at /labs/Lab10/house_prices.ipynb
+[I 2025-07-21 19:56:13.380 ServerApp] Saving file at /labs/Lab10/house_prices.ipynb
+[I 2025-07-21 19:58:14.498 ServerApp] Saving file at /labs/Lab10/house_prices.ipynb
+[I 2025-07-21 20:04:19.770 ServerApp] Saving file at /labs/Lab10/house_prices.ipynb
+[I 2025-07-21 20:05:18.036 ServerApp] Starting buffering for a158ada5-1cc7-4463-a09f-434897d1ad33:3cb79fd9-7049-4134-849f-4d905e4c2a24
+[I 2025-07-22 05:37:10.892 ServerApp] Malformed HTTP message from 147.185.133.69: Malformed HTTP request line
+[I 2025-07-22 05:37:11.177 ServerApp] 302 GET / (147.185.133.69) 10.40ms
+[I 2025-07-22 05:39:27.277 ServerApp] 302 GET / (147.185.133.69) 0.97ms
+[I 2025-07-22 05:39:27.539 LabApp] 302 GET /lab? (147.185.133.69) 6.57ms
+[I 2025-07-22 15:42:31.087 ServerApp] Malformed HTTP message from 162.216.150.18: Malformed HTTP request line
+[I 2025-07-22 15:42:31.166 ServerApp] 302 GET / (162.216.150.18) 7.48ms
+[I 2025-07-22 15:44:50.358 ServerApp] 302 GET / (162.216.150.18) 0.74ms
+[I 2025-07-22 15:44:50.430 LabApp] 302 GET /lab? (162.216.150.18) 5.18ms
+[I 2025-07-23 04:18:01.411 ServerApp] Malformed HTTP message from 147.185.133.221: Malformed HTTP request line
+[I 2025-07-23 04:18:01.677 ServerApp] 302 GET / (147.185.133.221) 9.71ms
+[I 2025-07-23 04:20:39.418 ServerApp] 302 GET / (147.185.133.221) 0.98ms
+[I 2025-07-23 04:20:39.675 LabApp] 302 GET /lab? (147.185.133.221) 5.88ms
