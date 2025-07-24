@@ -148,3 +148,493 @@
 [I 2025-07-23 14:35:17.113 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:315bbe65-4582-414f-a735-8976b1e81cc9
 [I 2025-07-23 14:35:22.223 ServerApp] Starting buffering for 6fe31a85-bdcc-45ab-9a84-7036ea8e0e0b:a927770e-92bf-4fa0-bd08-ba66409acf18
 [I 2025-07-23 14:35:27.082 ServerApp] Starting buffering for 69aad41f-ee28-47dd-bd1d-fc38663dcfff:1831f938-5388-4e24-b707-5d83049a0155
+[I 2025-07-23 15:43:09.593 ServerApp] 302 GET / (49.36.217.202) 4.28ms
+[W 2025-07-23 15:43:15.875 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-07-23 15:43:58.572 ServerApp] New terminal with automatic name: 3
+[I 2025-07-23 15:44:04.856 ServerApp] Creating new notebook in /projects/mp6
+[I 2025-07-23 15:44:06.426 ServerApp] Kernel started: 94fe5519-ffce-41b5-8fd0-7ce4661c4f5a
+[I 2025-07-23 15:46:06.108 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 15:48:07.424 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 15:52:08.417 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 15:54:09.024 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 15:56:09.650 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 15:58:10.281 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:02:10.929 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:04:11.559 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:06:12.183 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:08:12.758 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:10:13.435 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:12:14.488 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:13:56.876 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:15:16.443 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:17:21.874 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 16:19:17.433 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:19:22.477 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 16:20:49.958 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 16:23:10.546 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 16:23:18.135 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:25:18.705 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:25:34.334 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 16:26:00.235 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 16:27:34.966 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 16:28:00.858 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 16:28:39.472 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 16:29:19.375 ServerApp] Saving file at /projects/mp6/practiceFillingClass.ipynb
+[I 2025-07-23 16:29:35.546 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 16:30:40.058 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 16:30:43.373 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 16:31:27.225 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 16:31:31.673 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:477ca4d5-5ddf-4b3e-b42f-3753a7e806c4
+[I 2025-07-23 16:31:31.679 ServerApp] Starting buffering for 94fe5519-ffce-41b5-8fd0-7ce4661c4f5a:97da7d2d-0a3a-4915-aae6-046622119344
+[I 2025-07-23 16:31:33.237 ServerApp] Malformed HTTP message from 35.203.210.82: Malformed HTTP request line
+[I 2025-07-23 16:31:33.430 ServerApp] 302 GET / (35.203.210.82) 0.71ms
+[I 2025-07-23 16:32:17.702 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:477ca4d5-5ddf-4b3e-b42f-3753a7e806c4
+[I 2025-07-23 16:32:18.354 ServerApp] Restoring connection for 94fe5519-ffce-41b5-8fd0-7ce4661c4f5a:97da7d2d-0a3a-4915-aae6-046622119344
+[I 2025-07-23 16:32:24.404 ServerApp] Starting buffering for 94fe5519-ffce-41b5-8fd0-7ce4661c4f5a:b4b24ac1-ba3d-49a1-aaca-7ae919f9bd2f
+[I 2025-07-23 16:32:24.406 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:477ca4d5-5ddf-4b3e-b42f-3753a7e806c4
+[I 2025-07-23 16:33:52.573 ServerApp] 302 GET / (35.203.210.82) 0.77ms
+[I 2025-07-23 16:33:52.767 LabApp] 302 GET /lab? (35.203.210.82) 1.10ms
+[I 2025-07-23 17:58:29.818 ServerApp] 302 GET / (49.36.217.202) 10.09ms
+[W 2025-07-23 17:58:35.482 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-23 17:58:38.207 ServerApp] 404 GET /img/digraph.png (49.36.217.202) 37.35ms referer=http://34.46.107.25:2911/lab?
+[W 2025-07-23 17:58:38.210 ServerApp] 404 GET /img/geo.png (49.36.217.202) 1.60ms referer=http://34.46.107.25:2911/lab?
+[I 2025-07-23 18:00:38.063 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:00:38.571 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:00:52.818 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:01:10.227 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 18:01:10.495 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:01:10.753 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:01:43.198 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:02:36.004 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:02:50.108 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 18:02:50.372 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:02:50.650 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:03:35.566 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:03:43.797 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:05:36.753 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:05:44.441 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:06:31.237 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:06:50.229 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:07:39.972 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:07:45.067 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:08:15.313 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:09:45.709 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:10:16.008 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:11:30.148 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:11:46.300 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:12:38.346 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:13:22.173 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:14:50.620 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:15:23.091 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 18:15:23.395 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:15:23.712 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:15:54.244 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:16:08.311 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 18:16:08.577 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:16:08.868 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:17:17.254 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:17:31.087 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 18:17:31.402 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:17:31.710 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:17:54.839 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:17:55.598 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:17:59.045 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 18:17:59.311 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:17:59.670 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:18:56.303 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:19:23.637 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:19:41.762 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:19:57.322 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:21:42.392 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:21:57.364 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:23:07.382 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:23:23.501 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:23:57.997 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:24:12.415 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:25:59.493 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:27:59.114 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:29:05.008 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:30:00.110 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:30:20.588 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:31:01.808 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:31:31.995 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:32:17.899 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:32:24.254 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 18:32:24.525 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:32:24.850 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 18:34:07.442 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:36:08.016 ServerApp] Starting buffering for 94fe5519-ffce-41b5-8fd0-7ce4661c4f5a:3dfc05f0-6b36-46db-9e10-44d7053ba3c3
+[I 2025-07-23 18:38:08.032 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:40:08.606 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:42:09.184 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:42:48.614 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:43:49.775 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 18:44:09.764 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:44:34.772 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:45:00.732 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:46:03.273 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:48:04.100 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:50:04.694 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:50:42.459 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 18:59:33.168 ServerApp] New terminal with automatic name: 4
+[I 2025-07-23 19:02:45.659 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:04:46.428 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:06:47.046 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:08:47.642 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:10:48.242 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:12:48.846 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:14:49.430 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:16:50.234 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:18:51.176 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:19:18.857 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:19:29.715 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 19:19:30.215 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 19:19:30.488 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 19:20:41.327 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:23:34.922 ServerApp] Creating new notebook in /projects/mp7
+[I 2025-07-23 19:23:38.884 ServerApp] Kernel started: 23ddd314-aa07-4ce1-a420-9db1fd8321c5
+[I 2025-07-23 19:25:36.872 ServerApp] Saving file at /projects/mp7/lab11.ipynb
+[I 2025-07-23 19:27:39.843 ServerApp] Saving file at /projects/mp7/lab11.ipynb
+[I 2025-07-23 19:31:35.612 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:0c1d361c-6094-45cc-99d7-071d8a06b113
+[I 2025-07-23 19:33:44.860 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+unzip:  cannot find or open l, l.zip or l.ZIP.
+[I 2025-07-23 19:35:46.286 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:37:47.380 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:39:48.298 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:41:49.172 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:43:51.092 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:45:51.990 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:47:52.591 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:49:53.205 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:51:53.801 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:53:17.147 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:55:18.001 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:57:18.596 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 19:59:19.177 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 20:01:19.755 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 20:06:09.661 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 20:06:25.029 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 20:06:25.305 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 20:06:25.585 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 20:07:21.217 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 20:13:08.901 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 20:15:22.228 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 20:17:24.223 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 20:18:48.256 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 20:19:25.372 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 20:28:22.995 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 20:28:29.424 ServerApp] Starting buffering for 23ddd314-aa07-4ce1-a420-9db1fd8321c5:b9ff9435-e6cb-4119-800a-c7f361d203b3
+[I 2025-07-23 20:32:44.027 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 20:32:44.719 ServerApp] Restoring connection for 23ddd314-aa07-4ce1-a420-9db1fd8321c5:b9ff9435-e6cb-4119-800a-c7f361d203b3
+[I 2025-07-23 21:38:19.454 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 21:42:20.225 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 21:46:22.440 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 21:48:23.247 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 21:50:23.878 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 21:52:19.787 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 21:54:21.240 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 21:56:23.060 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 21:58:27.127 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:00:28.437 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:00:39.811 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:00:43.297 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 22:00:43.783 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 22:00:44.097 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 22:00:44.107 ServerApp] Replaying 2 buffered messages
+[I 2025-07-23 22:02:40.548 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:14:44.152 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:16:45.105 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:18:46.476 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:20:47.175 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:22:48.132 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:24:49.492 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:26:50.383 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:27:57.699 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:31:59.468 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:34:00.088 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:36:00.740 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:38:01.871 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:39:09.138 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:40:05.962 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:40:09.506 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 22:40:09.857 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 22:40:10.173 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 22:40:10.186 ServerApp] Replaying 3 buffered messages
+[I 2025-07-23 22:41:50.730 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:42:05.788 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:42:08.631 ServerApp] New terminal with automatic name: 5
+[I 2025-07-23 22:44:06.831 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:54:11.142 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:56:13.051 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 22:58:15.132 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:00:16.412 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:02:17.227 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:04:18.226 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:06:19.771 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[W 2025-07-23 23:07:50.348 ServerApp] 400 GET /api/contents/projects/mp6/Q13.pkl?type=file&content=1&format=text&1753312070900 (49.36.217.202): /home/varda/labs-and-projects/projects/mp6/Q13.pkl is not UTF-8 encoded
+[W 2025-07-23 23:07:50.348 ServerApp] wrote error: '/home/varda/labs-and-projects/projects/mp6/Q13.pkl is not UTF-8 encoded'
+[W 2025-07-23 23:07:50.349 ServerApp] 400 GET /api/contents/projects/mp6/Q13.pkl?type=file&content=1&format=text&1753312070900 (49.36.217.202) 3.31ms referer=http://34.46.107.25:2911/lab/tree/projects/mp6/mp6.ipynb
+[I 2025-07-23 23:08:22.545 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:10:24.396 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:12:26.358 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:14:19.551 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:14:22.932 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:14:23.306 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:14:23.609 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:16:03.221 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:16:20.183 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:16:20.476 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:16:20.774 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:18:03.895 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:19:25.463 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:20:17.000 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:20:24.289 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:20:28.936 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:20:29.222 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:20:29.494 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:21:49.294 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:22:33.686 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:26:51.091 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:26:56.777 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:26:57.056 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:26:57.329 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:28:11.008 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:30:21.730 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:30:26.451 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:30:26.727 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:30:27.020 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:31:40.823 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:31:41.113 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:31:41.368 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:32:12.092 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:33:11.631 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:33:15.677 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:33:15.956 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:33:16.232 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:34:12.717 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:34:28.714 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:35:43.579 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:35:47.825 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:35:48.099 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:35:48.370 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:36:29.605 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:36:34.354 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:36:39.280 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:36:39.549 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:36:39.843 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:36:53.271 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:37:07.919 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:37:13.088 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:37:13.370 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:37:13.647 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:38:54.075 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:40:17.166 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:40:21.167 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:40:21.447 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:40:21.721 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:40:54.692 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:42:02.460 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:42:16.251 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:42:16.523 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:42:16.814 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:42:55.314 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:43:10.376 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:44:03.046 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:45:01.722 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:45:06.677 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:45:06.958 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:45:07.244 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:45:11.426 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:46:42.924 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:48:17.250 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:48:23.936 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:48:24.219 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:48:24.506 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:48:43.542 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:50:45.550 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:52:37.531 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:52:40.043 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:52:40.324 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:52:40.603 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:53:50.731 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:53:54.422 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:53:54.700 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:53:54.958 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:55:28.960 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:56:53.632 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-23 23:56:57.514 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-23 23:56:57.782 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:56:58.052 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-23 23:57:29.552 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-23 23:58:17.371 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:01:09.663 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-24 00:01:15.143 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 00:01:15.412 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:01:15.706 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:02:18.269 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:02:48.655 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-24 00:02:54.013 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 00:02:54.295 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:02:54.573 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:04:17.821 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-24 00:04:19.251 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:04:25.451 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 00:04:25.734 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:04:26.015 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:06:19.999 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:08:13.954 ServerApp] Uploading file to /projects/mp6/edgar_utils.py
+[I 2025-07-24 00:08:14.207 ServerApp] Uploading file to /projects/mp6/mp6 (3).ipynb
+[W 2025-07-24 00:08:33.416 ServerApp] Notebook projects/mp6/mp6.ipynb is not trusted
+[I 2025-07-24 00:08:35.161 ServerApp] Kernel started: 3b591a52-8125-4334-a7d0-aab636e54629
+[I 2025-07-24 00:08:43.016 ServerApp] Kernel restarted: 3b591a52-8125-4334-a7d0-aab636e54629
+[I 2025-07-24 00:08:43.289 ServerApp] Starting buffering for 3b591a52-8125-4334-a7d0-aab636e54629:94fda779-372f-4073-a342-8e0be866925e
+[I 2025-07-24 00:08:43.573 ServerApp] Restoring connection for 3b591a52-8125-4334-a7d0-aab636e54629:94fda779-372f-4073-a342-8e0be866925e
+[I 2025-07-24 00:10:15.063 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:12:21.130 ServerApp] Saving file at /projects/mp6/mp6-1.ipynb
+[I 2025-07-24 00:14:22.268 ServerApp] Saving file at /projects/mp6/mp6-1.ipynb
+[I 2025-07-24 00:16:23.147 ServerApp] Saving file at /projects/mp6/mp6-1.ipynb
+[I 2025-07-24 00:18:24.321 ServerApp] Saving file at /projects/mp6/mp6-1.ipynb
+[I 2025-07-24 00:19:31.491 ServerApp] Saving file at /projects/mp6/mp6-1.ipynb
+[I 2025-07-24 00:21:32.390 ServerApp] Saving file at /projects/mp6/mp6-1.ipynb
+[I 2025-07-24 00:22:12.522 ServerApp] Kernel shutdown: 3b591a52-8125-4334-a7d0-aab636e54629
+[W 2025-07-24 00:22:13.911 ServerApp] delete /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:22:40.322 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:24:24.737 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:24:36.899 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 00:24:37.176 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:24:37.467 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:26:17.795 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:26:27.259 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 00:26:27.533 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:26:27.799 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:28:18.384 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:30:18.973 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:31:41.403 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:31:52.825 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 00:31:53.099 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:31:53.388 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:33:17.514 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:34:20.005 ServerApp] Saving file at /projects/mp6/edgar_utils-1.py
+[I 2025-07-24 00:34:21.073 ServerApp] Saving file at /projects/mp6/edgar_utils-1.py
+[W 2025-07-24 00:34:28.424 ServerApp] delete /projects/mp6/edgar_utils.py
+[I 2025-07-24 00:34:36.983 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-24 00:34:40.674 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 00:34:40.970 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:34:41.256 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:35:18.116 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:36:22.079 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:38:22.945 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:38:23.065 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:40:24.209 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:42:24.844 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:43:36.589 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-24 00:43:40.669 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 00:43:40.957 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:43:41.242 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:44:25.447 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:45:49.498 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:45:52.385 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 00:45:52.668 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:45:52.952 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:47:07.729 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:47:37.134 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-24 00:47:40.846 ServerApp] Saving file at /projects/mp6/edgar_utils.py
+[I 2025-07-24 00:48:08.967 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 00:48:09.261 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:48:09.544 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 00:49:09.006 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 00:50:18.702 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[W 2025-07-24 00:53:10.750 ServerApp] 400 GET /api/contents/projects/mp6/shapes/cb_2018_us_state_20m.dbf?type=file&content=1&format=text&1753318391391 (49.36.217.202): /home/varda/labs-and-projects/projects/mp6/shapes/cb_2018_us_state_20m.dbf is not UTF-8 encoded
+[W 2025-07-24 00:53:10.750 ServerApp] wrote error: '/home/varda/labs-and-projects/projects/mp6/shapes/cb_2018_us_state_20m.dbf is not UTF-8 encoded'
+[W 2025-07-24 00:53:10.751 ServerApp] 400 GET /api/contents/projects/mp6/shapes/cb_2018_us_state_20m.dbf?type=file&content=1&format=text&1753318391391 (49.36.217.202) 3.08ms referer=http://34.46.107.25:2911/lab/tree/projects/mp6/shapes/cb_2018_us_state_20m.cpg
+[W 2025-07-24 00:53:16.986 ServerApp] 400 GET /api/contents/projects/mp6/shapes/cb_2018_us_state_20m.shp?type=file&content=1&format=text&1753318397623 (49.36.217.202): /home/varda/labs-and-projects/projects/mp6/shapes/cb_2018_us_state_20m.shp is not UTF-8 encoded
+[W 2025-07-24 00:53:16.987 ServerApp] wrote error: '/home/varda/labs-and-projects/projects/mp6/shapes/cb_2018_us_state_20m.shp is not UTF-8 encoded'
+[W 2025-07-24 00:53:16.987 ServerApp] 400 GET /api/contents/projects/mp6/shapes/cb_2018_us_state_20m.shp?type=file&content=1&format=text&1753318397623 (49.36.217.202) 2.89ms referer=http://34.46.107.25:2911/lab/tree/projects/mp6/shapes/cb_2018_us_state_20m.prj
+[I 2025-07-24 01:02:20.600 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:02:29.653 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:02:33.156 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 01:02:33.437 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:02:33.707 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:04:31.299 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:05:35.391 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:15:39.280 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:17:39.933 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:19:40.605 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:21:42.353 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:22:28.577 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:22:31.476 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 01:22:31.744 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:22:32.046 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:24:29.204 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:24:29.727 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:25:31.091 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:25:34.497 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 01:25:34.786 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:25:35.057 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:26:11.850 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:26:15.177 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 01:26:15.448 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:26:15.716 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:28:13.194 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:30:13.822 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:31:25.899 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:31:45.788 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:31:48.222 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 01:31:48.497 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:31:48.819 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:33:28.156 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:33:39.848 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:33:39.864 ServerApp] Starting buffering for 23ddd314-aa07-4ce1-a420-9db1fd8321c5:b9ff9435-e6cb-4119-800a-c7f361d203b3
+[I 2025-07-24 01:33:42.210 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:33:44.440 ServerApp] Restoring connection for 23ddd314-aa07-4ce1-a420-9db1fd8321c5:b9ff9435-e6cb-4119-800a-c7f361d203b3
+[I 2025-07-24 01:35:13.140 ServerApp] Starting buffering for 23ddd314-aa07-4ce1-a420-9db1fd8321c5:b9ff9435-e6cb-4119-800a-c7f361d203b3
+[I 2025-07-24 01:35:14.179 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:35:14.528 ServerApp] Restoring connection for 23ddd314-aa07-4ce1-a420-9db1fd8321c5:b9ff9435-e6cb-4119-800a-c7f361d203b3
+[I 2025-07-24 01:35:16.789 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:36:20.751 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:36:21.780 ServerApp] Starting buffering for 23ddd314-aa07-4ce1-a420-9db1fd8321c5:b9ff9435-e6cb-4119-800a-c7f361d203b3
+[I 2025-07-24 01:36:22.114 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:36:24.354 ServerApp] Restoring connection for 23ddd314-aa07-4ce1-a420-9db1fd8321c5:b9ff9435-e6cb-4119-800a-c7f361d203b3
+[W 2025-07-24 01:39:22.115 ServerApp] WebSocket ping timeout after 119727 ms.
+[W 2025-07-24 01:39:22.691 ServerApp] WebSocket ping timeout after 119725 ms.
+[W 2025-07-24 01:39:23.252 ServerApp] WebSocket ping timeout after 119732 ms.
+[W 2025-07-24 01:39:23.795 ServerApp] WebSocket ping timeout after 119732 ms.
+[W 2025-07-24 01:39:24.356 ServerApp] WebSocket ping timeout after 119732 ms.
+[I 2025-07-24 01:39:27.120 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:39:29.359 ServerApp] Starting buffering for 23ddd314-aa07-4ce1-a420-9db1fd8321c5:b9ff9435-e6cb-4119-800a-c7f361d203b3
+[I 2025-07-24 01:53:49.151 ServerApp] Restoring connection for 23ddd314-aa07-4ce1-a420-9db1fd8321c5:b9ff9435-e6cb-4119-800a-c7f361d203b3
+[I 2025-07-24 01:53:51.222 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 01:55:49.723 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:57:51.845 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 01:59:52.739 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:01:53.406 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:03:54.554 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:05:55.437 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:07:56.731 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:09:58.005 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:11:58.888 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:13:59.531 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:16:00.798 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:18:01.430 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:20:02.293 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:24:03.996 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:26:05.993 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:28:07.384 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:30:09.482 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:32:32.447 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:32:38.096 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 02:32:38.371 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 02:32:38.653 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 02:34:33.343 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:34:36.403 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:35:55.541 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:37:57.179 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:43:58.468 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:43:59.380 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:44:16.786 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:44:22.202 ServerApp] Kernel restarted: c04f2b15-65ea-4e06-b3e3-73a7488807e7
+[I 2025-07-24 02:44:22.488 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 02:44:22.767 ServerApp] Restoring connection for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b
+[I 2025-07-24 02:45:44.399 ServerApp] Saving file at /projects/mp6/mp6.ipynb
+[I 2025-07-24 02:46:04.381 ServerApp] Starting buffering for 23ddd314-aa07-4ce1-a420-9db1fd8321c5:b9ff9435-e6cb-4119-800a-c7f361d203b3
+[I 2025-07-24 02:46:04.391 ServerApp] Starting buffering for c04f2b15-65ea-4e06-b3e3-73a7488807e7:47f97873-43dc-48f0-92ac-7355862b052b

@@ -1,0 +1,10 @@
+{
+  "score": 94.0,
+  "errors": [
+    "\u001b[1mQuestion 13:\u001b[0m\nERRORS: Incorrect number of regions."
+  ],
+  "module_errors": [],
+  "missing": [],
+  "hardcoding": [],
+  "summary": "Result: Score of 94.0% as a weighted average of 100.0% (modules) and 92% (notebook)."
+}
