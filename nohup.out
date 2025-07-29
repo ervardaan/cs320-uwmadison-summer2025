@@ -33,3 +33,19 @@
 [I 2025-06-22 16:15:30.998 LabApp] 302 GET /lab (199.45.155.97) 5.14ms
 [I 2025-06-22 16:15:31.765 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
 [I 2025-06-22 16:15:37.205 ServerApp] Malformed HTTP message from 199.45.155.97: Unexpected HTTP version 'HTTP/2.0'
+[I 2025-07-28 17:57:28.707 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-28 17:57:28.712 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-28 17:57:30.045 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-07-28 17:57:30.133 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-28 17:57:30.159 LabApp] JupyterLab extension loaded from /home/varda/.local/lib/python3.10/site-packages/jupyterlab
+[I 2025-07-28 17:57:30.159 LabApp] JupyterLab application directory is /home/varda/.local/share/jupyter/lab
+[I 2025-07-28 17:57:30.168 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-28 17:57:30.199 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-28 17:57:30.199 ServerApp] The port 2911 is already in use, trying another port.
+[I 2025-07-28 17:57:30.199 ServerApp] The port 2912 is already in use, trying another port.
+[I 2025-07-28 17:57:30.199 ServerApp] The port 2913 is already in use, trying another port.
+[I 2025-07-28 17:57:30.200 ServerApp] Serving notebooks from local directory: /home/varda/labs-and-projects
+[I 2025-07-28 17:57:30.200 ServerApp] Jupyter Server 1.24.0 is running at:
+[I 2025-07-28 17:57:30.200 ServerApp] http://instance-20250618-195632:2914/lab
+[I 2025-07-28 17:57:30.200 ServerApp]  or http://127.0.0.1:2914/lab
+[I 2025-07-28 17:57:30.200 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).

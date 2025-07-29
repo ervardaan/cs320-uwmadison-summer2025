@@ -1,0 +1,11 @@
+{
+  "score": 73,
+  "errors": [
+    "\u001b[1mQuestion 17:\u001b[0m\nERRORS: No X or Y values found. Make sure to plot directly on the `ax` object or pass it in as an argument to the plot function",
+    "Question 18:\n---------------\nExpected type to be dict, but found NoneType",
+    "Question 19:\n---------------\nExpected type to be float, but found NoneType"
+  ],
+  "hardcoding": [],
+  "missing": [],
+  "summary": "Result: 16.0 of 22 points, for a score of 73%."
+}
